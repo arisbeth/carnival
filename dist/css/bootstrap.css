@@ -1323,6 +1323,15 @@ mark,
 .text-capitalize {
   text-transform: capitalize;
 }
+.color-primary {
+  color: #226caf;
+}
+.color-secondary {
+  color: #f90f2f;
+}
+.color-tertiary {
+  color: #79b2ea;
+}
 .text-muted {
   color: #777777;
 }
@@ -3193,6 +3202,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-primary .badge {
   color: #337ab7;
   background-color: #ffffff;
+}
+.btn-secondary {
+  background-color: #f90f2f;
 }
 .btn-success {
   color: #ffffff;
@@ -6581,13 +6593,13 @@ button.close {
   position: fixed;
 }
 .bg-primary {
-  background-color: #24385d;
+  background-color: #226caf;
 }
-.bg-secundary {
-  background-color: #d8d8d8;
+.bg-secondary {
+  background-color: #f90f2f;
 }
 .bg-tertiary {
-  background-color: #585858;
+  background-color: #79b2ea;
 }
 .bg-darker {
   background-color: #848484;
@@ -6596,7 +6608,7 @@ button.close {
   background-color: #bdbdbd;
 }
 .bg-quaternary {
-  background-color: #a4a4a4;
+  background-color: #226caf;
 }
 .padding-medium {
   padding-right: 50%;
@@ -6617,7 +6629,7 @@ button.close {
   padding: 30px 0;
 }
 .margin-bottom {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .margin-small {
   margin-bottom: 10px;
@@ -6631,8 +6643,17 @@ button.close {
 .width-100 {
   width: 100%;
 }
+.width-50 {
+  width: 50%;
+}
 .bg-prueba {
   background-color: #E6E6E6;
+  width: 100%;
+  height: 300px;
+  padding-top: 80px;
+}
+.bg-prueba2 {
+  background-color: #333333;
   width: 100%;
   height: 300px;
   padding-top: 80px;
