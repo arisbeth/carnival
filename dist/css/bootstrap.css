@@ -3,6 +3,10 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+.image-1 {
+  background-image: url(../img/barbados.jpg);
+  background-size: cover;
+}
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -6625,6 +6629,9 @@ button.close {
 .padding-left {
   padding-left: 50%;
 }
+.padding-right {
+  padding-right: 6px;
+}
 .padding-extralarge {
   padding: 0 20%;
 }
@@ -6641,17 +6648,30 @@ button.close {
   padding-bottom: 10%;
   padding-top: 10%;
 }
+.padding-top {
+  padding-top: 50px;
+}
+.padding-right-left {
+  padding-left: 10%;
+  padding-right: 10%;
+}
 .margin-bottom {
   margin-bottom: 10px;
 }
 .margin-small {
   margin-bottom: 10px;
 }
+.margin-small2 {
+  margin: 20px;
+}
 .margin-large {
   margin-bottom: 150px;
 }
 .margin-left {
   margin-left: 10px;
+}
+.margin-left-medium {
+  margin-left: 90px;
 }
 .width-100 {
   width: 100%;
@@ -6663,7 +6683,6 @@ button.close {
   background-color: #E6E6E6;
   width: 100%;
   height: 300px;
-  padding-top: 80px;
 }
 .bg-prueba2 {
   background-color: #333333;
@@ -6729,6 +6748,10 @@ button.close {
 }
 .border-right {
   border-right: 1px solid #ffffff;
+}
+.divider {
+  margin-bottom: 20px;
+  border-top: 3px solid #226caf;
 }
 @-ms-viewport {
   width: device-width;
