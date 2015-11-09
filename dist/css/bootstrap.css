@@ -2315,7 +2315,7 @@ th {
   padding: 8px;
   line-height: 1.42857143;
   vertical-align: top;
-  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #d9534f;
 }
 .table > thead > tr > th {
   vertical-align: bottom;
@@ -6645,6 +6645,9 @@ button.close {
 .bg-quaternary {
   background-color: #226caf;
 }
+.bg-secondary-2 {
+  background-color: #ffffff+#f90f2f;
+}
 .padding-medium {
   padding-right: 50%;
 }
@@ -6697,6 +6700,9 @@ button.close {
 }
 .margin-left-medium {
   margin-left: 90px;
+}
+.margin-medium {
+  margin-bottom: 30px;
 }
 .width-100 {
   width: 100%;
@@ -6791,6 +6797,10 @@ button.close {
 }
 .danger {
   color: #d9534f;
+}
+.map {
+  width: 100%;
+  height: 300px;
 }
 @-ms-viewport {
   width: device-width;
