@@ -1568,7 +1568,7 @@ a {
   text-decoration: underline;
 }
 .strong {
-  font-weight: bold;
+  font-weight: bold!important;
 }
 code,
 kbd,
@@ -4804,6 +4804,10 @@ fieldset[disabled] .navbar-inverse .btn-link:hover,
 fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444444;
 }
+.fixed {
+  position: fixed;
+  bottom: 0px;
+}
 .breadcrumb {
   padding: 8px 15px;
   margin-bottom: 20px;
@@ -6693,6 +6697,9 @@ button.close {
   padding-bottom: 10%;
   padding-top: 10%;
 }
+.padding-md {
+  padding: 10%;
+}
 .padding-top {
   padding-top: 50px;
 }
@@ -6828,6 +6835,12 @@ button.close {
   background-color: #f90f2f;
   color: #ffffff;
   border-radius: 100%;
+}
+.icon {
+  width: 100%;
+}
+.footer-space {
+  height: 30px;
 }
 @-ms-viewport {
   width: device-width;
@@ -7046,7 +7059,7 @@ button.close {
   background-position: center;
   height: 250px;
 }
-.bg-img- {
+.img-destinos {
   background-image: url('../../img/destinos.jpg');
   background-size: cover;
   background-repeat: no-repeat;
