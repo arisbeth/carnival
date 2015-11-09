@@ -1170,7 +1170,10 @@ hr {
 }
 @font-face {
   font-family: 'Abadi Bold';
-  src: url(../../Abadi-MT-Condensed-Extra-Bold.ttf);
+  src: url(../font/Abadi-MT-Condensed-Extra-Bold.ttf);
+}
+.font-heading {
+  font-family: 'Abadi Bold';
 }
 h1,
 h2,
