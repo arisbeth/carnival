@@ -66,7 +66,7 @@
 .bg-darker{   background-color: @darker; }
 .bg-dark{   background-color: @dark; }
 .bg-quaternary{   background-color: @quaternary; }
-
+.bg-secondary-2{background-color: @light+@secondary;}
 
 // Padding
 // -------------------------
@@ -99,6 +99,7 @@
 .margin-left-medium{
   margin-left: @margin-medium;
 }
+.margin-medium{margin-bottom: @margin-smaller;}
 // Width
 // -------------------------
 
@@ -190,11 +191,12 @@ box-shadow: 2px 2px 7px -2px rgba(0,0,0,0.75);
 .text-shadow{
 text-shadow: 2px 2px 4px @dark;
 }
-//border-right
+//borders
 
 .border-right{
   border-right: 1px solid @light;
 }
+
 //divider
 
 .divider{
@@ -212,4 +214,9 @@ text-shadow: 2px 2px 4px @dark;
 }
 .danger{
   color: @brand-danger;
+}
+//map
+.map{
+  width: 100%;
+  height: 300px;
 }

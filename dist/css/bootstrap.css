@@ -2315,7 +2315,7 @@ th {
   padding: 8px;
   line-height: 1.42857143;
   vertical-align: top;
-  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #d9534f;
 }
 .table > thead > tr > th {
   vertical-align: bottom;
@@ -2592,16 +2592,11 @@ output {
   display: block;
   width: 100%;
   height: 34px;
-  padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
   color: #555555;
   background-color: #ffffff;
   background-image: none;
-  border: 1px solid #cccccc;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
@@ -3046,6 +3041,31 @@ select[multiple].input-lg {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
+}
+.arrow-secondary {
+  background-image: url('../../img/arrow2.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 20px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+input,
+select {
+  border-bottom: 1.5px solid #d9534f !important;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+select {
+  border: none;
+  color: #777777 !important;
+}
+textarea {
+  border: none;
+  height: 100px!important;
+  border-bottom: 1.5px solid #d9534f;
 }
 .btn {
   display: inline-block;
@@ -6645,6 +6665,9 @@ button.close {
 .bg-quaternary {
   background-color: #226caf;
 }
+.bg-secondary-2 {
+  background-color: #ffffff+#f90f2f;
+}
 .padding-medium {
   padding-right: 50%;
 }
@@ -6697,6 +6720,9 @@ button.close {
 }
 .margin-left-medium {
   margin-left: 90px;
+}
+.margin-medium {
+  margin-bottom: 30px;
 }
 .width-100 {
   width: 100%;
@@ -6791,6 +6817,10 @@ button.close {
 }
 .danger {
   color: #d9534f;
+}
+.map {
+  width: 100%;
+  height: 300px;
 }
 @-ms-viewport {
   width: device-width;
