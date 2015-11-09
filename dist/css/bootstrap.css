@@ -3052,13 +3052,13 @@ select[multiple].input-lg {
   appearance: none;
 }
 input,
-select {
+select.contact {
   border-bottom: 1.5px solid #d9534f !important;
   border-top: none;
   border-right: none;
   border-left: none;
 }
-select {
+select.contact {
   border: none;
   color: #777777 !important;
 }
@@ -6821,6 +6821,13 @@ button.close {
 .map {
   width: 100%;
   height: 300px;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: #f90f2f;
+  color: #ffffff;
+  border-radius: 100%;
 }
 @-ms-viewport {
   width: device-width;
