@@ -1168,6 +1168,10 @@ hr {
 [role="button"] {
   cursor: pointer;
 }
+@font-face {
+  font-family: 'Abadi Bold';
+  src: url(../../Abadi-MT-Condensed-Extra-Bold.ttf);
+}
 h1,
 h2,
 h3,
@@ -1334,7 +1338,7 @@ mark,
   text-transform: capitalize;
 }
 .color-primary {
-  color: #226caf;
+  color: #04549c;
 }
 .color-secondary {
   color: #f90f2f;
@@ -2561,15 +2565,6 @@ select[multiple],
 select[size] {
   height: auto;
 }
-select[class="arrow"] {
-  border: 1px solid #ccc;
-  background: url('../../img/arrow-up.png');
-  background-position: right;
-  background-size: 100%;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
-}
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
@@ -3035,10 +3030,13 @@ select[multiple].input-lg {
   }
 }
 .arrow {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
   background-image: url('../../img/arrow.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 20px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
 .btn {
   display: inline-block;
@@ -6618,7 +6616,7 @@ button.close {
   position: fixed;
 }
 .bg-primary {
-  background-color: #226caf;
+  background-color: #04549c;
 }
 .bg-secondary {
   background-color: #f90f2f;
@@ -6663,6 +6661,9 @@ button.close {
 .padding-top {
   padding-top: 50px;
 }
+.padding-top-sm {
+  padding-top: 10%;
+}
 .padding-right-left {
   padding-left: 10%;
   padding-right: 10%;
@@ -6693,18 +6694,18 @@ button.close {
 }
 .bg-prueba {
   background-image: url('../../img/carnival.jpg');
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  height: 200px;
+  height: 300px;
   padding-top: 20%;
 }
 .bg-prueba2 {
   background-image: url('../../img/carnival-.jpg');
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  height: 200px;
+  height: 300px;
   padding-top: 20%;
 }
 .circulo {
@@ -6752,7 +6753,7 @@ button.close {
   border-bottom: 50px solid #A4A4A4;
 }
 .border-primary {
-  border: 2px solid #226caf;
+  border: 2px solid #04549c;
 }
 .rounded {
   border-radius: 50px;
@@ -6768,7 +6769,7 @@ button.close {
 }
 .divider {
   margin-bottom: 20px;
-  border-top: 3px solid #226caf;
+  border-top: 3px solid #04549c;
 }
 .vertical {
   vertical-align: middle;
@@ -6982,5 +6983,12 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+.img-home {
+  background-image: url('../../img/carnival.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
 }
 /*# sourceMappingURL=bootstrap.css.map */

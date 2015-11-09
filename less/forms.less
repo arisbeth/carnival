@@ -72,18 +72,6 @@ select[size] {
   height: auto;
 }
 
-// arrow
-select[class="arrow"]{
-  border: 1px solid #ccc;
-  background: url('../../img/arrow-up.png');
-  background-position: right;
-  background-size: 100%;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
-}
-
-
 // Focus for file, radio, and checkbox
 input[type="file"]:focus,
 input[type="radio"]:focus,
@@ -619,10 +607,17 @@ input[type="checkbox"] {
     }
   }
 }
+
 //arrow
+
 .arrow {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
   background-image: url('../../img/arrow.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 20px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
+
+
