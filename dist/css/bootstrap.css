@@ -1564,6 +1564,12 @@ a {
 .font-size-large {
   font-size: 18px;
 }
+.underlined {
+  text-decoration: underline;
+}
+.strong {
+  font-weight: bold;
+}
 code,
 kbd,
 pre,
