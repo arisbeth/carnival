@@ -1176,6 +1176,9 @@ hr {
 .font-heading {
   font-family: 'Tempo';
 }
+.font-footer {
+  font-family: 'OpenSans_Bold';
+}
 h1,
 h2,
 h3,
