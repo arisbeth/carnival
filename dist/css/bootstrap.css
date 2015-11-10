@@ -1169,11 +1169,11 @@ hr {
   cursor: pointer;
 }
 @font-face {
-  font-family: 'Abadi Bold';
-  src: url(../font/Abadi-MT-Condensed-Extra-Bold.ttf);
+  font-family: Tempo;
+  src: url('../../font/Tempo-Std-Heavy-Condensed_43820.otf');
 }
 .font-heading {
-  font-family: 'Abadi Bold';
+  font-family: 'Tempo';
 }
 h1,
 h2,
@@ -3531,6 +3531,10 @@ input[type="button"].btn-block {
   color: #ffffff;
   text-transform: uppercase;
 }
+.fixed {
+  position: fixed;
+  bottom: 0px;
+}
 .fade {
   opacity: 0;
   -webkit-transition: opacity 0.15s linear;
@@ -3584,16 +3588,15 @@ tbody.collapse.in {
 .dropdown-menu {
   position: absolute;
   top: 100%;
-  left: 0;
   z-index: 1000;
   display: none;
-  float: left;
+  float: right;
   min-width: 160px;
-  padding: 5px 0;
+  padding: 100% ;
   margin: 2px 0 0;
   list-style: none;
   font-size: 14px;
-  text-align: left;
+  text-align: center;
   background-color: #ffffff;
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -3616,9 +3619,10 @@ tbody.collapse.in {
   display: block;
   padding: 3px 20px;
   clear: both;
+  font-size: 1.2em;
   font-weight: normal;
-  line-height: 1.42857143;
-  color: #333333;
+  line-height: 3em;
+  color: #ffffff;
   white-space: nowrap;
 }
 .dropdown-menu > li > a:hover,
@@ -4746,10 +4750,6 @@ fieldset[disabled] .navbar-inverse .btn-link:hover,
 .navbar-inverse .btn-link[disabled]:focus,
 fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444444;
-}
-.fixed {
-  position: fixed;
-  bottom: 0px;
 }
 .breadcrumb {
   padding: 8px 15px;
@@ -6744,7 +6744,7 @@ button.close {
   border: 2px solid #04549c;
 }
 .text-shadow {
-  text-shadow: 2px 2px 4px #bdbdbd;
+  text-shadow: 2px 2px 1px #bdbdbd;
 }
 .border-right {
   border-right: 1px solid #ffffff;
