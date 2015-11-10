@@ -1169,11 +1169,11 @@ hr {
   cursor: pointer;
 }
 @font-face {
-  font-family: 'Abadi Bold';
-  src: url(../font/Abadi-MT-Condensed-Extra-Bold.ttf);
+  font-family: Tempo;
+  src: url('../../font/Tempo-Std-Heavy-Condensed_43820.otf');
 }
 .font-heading {
-  font-family: 'Abadi Bold';
+  font-family: 'Tempo';
 }
 h1,
 h2,
@@ -4808,10 +4808,6 @@ fieldset[disabled] .navbar-inverse .btn-link:hover,
 fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444444;
 }
-.fixed {
-  position: fixed;
-  bottom: 0px;
-}
 .breadcrumb {
   padding: 8px 15px;
   margin-bottom: 20px;
@@ -6811,7 +6807,7 @@ button.close {
   box-shadow: 2px 2px 7px -2px rgba(0, 0, 0, 0.75);
 }
 .text-shadow {
-  text-shadow: 2px 2px 4px #bdbdbd;
+  text-shadow: 2px 2px 1px #bdbdbd;
 }
 .border-right {
   border-right: 1px solid #ffffff;
