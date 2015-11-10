@@ -1570,6 +1570,12 @@ a {
 .strong {
   font-weight: bold!important;
 }
+.text-shadow {
+  text-shadow: 2px 2px 1px #bdbdbd;
+}
+.larger {
+  font-size: 170%;
+}
 code,
 kbd,
 pre,
@@ -6743,9 +6749,6 @@ button.close {
 .border-primary {
   border: 2px solid #04549c;
 }
-.text-shadow {
-  text-shadow: 2px 2px 1px #bdbdbd;
-}
 .border-right {
   border-right: 1px solid #ffffff;
 }
@@ -6991,17 +6994,9 @@ button.close {
 }
 .img-home {
   background-image: url('../../img/carnival.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 250px;
 }
 .img-destinos {
   background-image: url('../../img/destinos.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 250px;
 }
 .img-folletos {
   background-image: url('../../img/folletos.jpg');
@@ -7011,5 +7006,11 @@ button.close {
   background-repeat: no-repeat;
   background-position: center;
   height: 150px;
+}
+.square {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
 }
 /*# sourceMappingURL=bootstrap.css.map */
