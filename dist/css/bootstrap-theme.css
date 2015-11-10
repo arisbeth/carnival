@@ -3,13 +3,6 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-.image-1 {
-  background-image: url('../../img/barbados.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 300px;
-}
 .img-home {
   background-image: url('../../img/carnival.jpg');
 }
@@ -18,6 +11,12 @@
 }
 .img-folletos {
   background-image: url('../../img/folletos.jpg');
+}
+.img-crucero {
+  background-image: url('../../img/carnival-.jpg');
+}
+.img-barbados {
+  background-image: url('../../img/barbados.jpg');
 }
 .rectangule {
   background-size: cover;
@@ -30,6 +29,12 @@
   background-repeat: no-repeat;
   background-position: center;
   height: 300px;
+}
+.rectangule-medium {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
 }
 .btn-default,
 .btn-primary,
