@@ -1165,6 +1165,14 @@ hr {
   font-family: Tempo;
   src: url('../../font/Tempo-Std-Heavy-Condensed_43820.otf');
 }
+@font-face {
+  font-family: OpenSans_Bold;
+  src: url('../../font/OpenSans-Bold.otf');
+}
+@font-face {
+  font-family: OpenSans;
+  src: url('../../font/OpenSans-Regular.otf');
+}
 .font-heading {
   font-family: 'Tempo';
 }
@@ -1285,6 +1293,7 @@ h6,
 }
 p {
   margin: 0 0 10px;
+  font-family: 'OpenSans';
 }
 .lead {
   margin-bottom: 20px;
@@ -7017,5 +7026,8 @@ button.close {
   background-repeat: no-repeat;
   background-position: center;
   height: 200px;
+}
+.img-size-xs {
+  width: 30%;
 }
 /*# sourceMappingURL=bootstrap.css.map */

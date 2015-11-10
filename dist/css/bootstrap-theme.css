@@ -36,6 +36,9 @@
   background-position: center;
   height: 200px;
 }
+.img-size-xs {
+  width: 30%;
+}
 .btn-default,
 .btn-primary,
 .btn-success,
