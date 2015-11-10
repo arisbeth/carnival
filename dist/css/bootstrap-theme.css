@@ -36,6 +36,12 @@
   background-position: center;
   height: 200px;
 }
+.rectangule-small {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80px;
+}
 .btn-default,
 .btn-primary,
 .btn-success,
