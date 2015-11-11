@@ -6792,6 +6792,9 @@ button.close {
 .footer-space {
   height: 30px;
 }
+.bg-dark {
+  background-color: #000000;
+}
 @-ms-viewport {
   width: device-width;
 }
