@@ -1176,9 +1176,6 @@ hr {
 .font-heading {
   font-family: 'Tempo';
 }
-.font-footer {
-  font-family: 'OpenSans_Bold';
-}
 h1,
 h2,
 h3,
@@ -1298,6 +1295,9 @@ p {
   margin: 0 0 10px;
   font-family: 'OpenSans';
 }
+h4 {
+  font-family: 'OpenSans_Bold';
+}
 .lead {
   margin-bottom: 20px;
   font-size: 16px;
@@ -1315,6 +1315,12 @@ small,
 }
 .large {
   font-size: 130%;
+}
+.xlarge {
+  font-size: 300%;
+}
+.medium {
+  font-size: 110%;
 }
 mark,
 .mark {
@@ -1353,6 +1359,9 @@ mark,
 }
 .color-tertiary {
   color: #79b2ea;
+}
+.color-light {
+  color: #ffffff;
 }
 .text-muted {
   color: #777777;
@@ -5966,6 +5975,9 @@ button.close {
   width: auto;
   margin: 10px;
 }
+.modal-dialog {
+  margin: 0px;
+}
 .modal-content {
   position: relative;
   background-color: #ffffff;
@@ -6049,6 +6061,9 @@ button.close {
   .modal-lg {
     width: 900px;
   }
+}
+.closer {
+  margin: 0px;
 }
 .tooltip {
   position: absolute;
@@ -6659,9 +6674,6 @@ button.close {
 .padding-top-sm {
   padding-top: 10%;
 }
-.padding-top-xs {
-  padding-top: 5%;
-}
 .padding-right-left {
   padding-left: 10%;
   padding-right: 10%;
@@ -6693,21 +6705,8 @@ button.close {
 .width-50 {
   width: 50%;
 }
-.bg-prueba {
-  background-image: url('../../img/carnival.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  height: 300px;
-  padding-top: 20%;
-}
-.bg-prueba2 {
-  background-image: url('../../img/carnival-.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  height: 300px;
-  padding-top: 20%;
+.height-100 {
+  height: 100%;
 }
 .circulo {
   width: 40px;
@@ -6756,6 +6755,9 @@ button.close {
 .border-primary {
   border: 2px solid #04549c;
 }
+.border-bottom {
+  border-bottom: 1px solid #f90f2f;
+}
 .border-right {
   border-right: 1px solid #ffffff;
 }
@@ -6788,6 +6790,9 @@ button.close {
 }
 .footer-space {
   height: 30px;
+}
+.bg-dark {
+  background-color: #000000;
 }
 @-ms-viewport {
   width: device-width;

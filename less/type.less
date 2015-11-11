@@ -24,10 +24,7 @@
 .font-heading{
   font-family: 'Tempo';
 }
-//font footer
-.font-footer{
-  font-family: 'OpenSans_Bold'
-}
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: @headings-font-family;
@@ -81,6 +78,9 @@ p {
   font-family: 'OpenSans' ;
 }
 
+h4{
+  font-family: 'OpenSans_Bold'
+}
 .lead {
   margin-bottom: @line-height-computed;
   font-size: floor((@font-size-base * 1.15));
@@ -104,6 +104,12 @@ small,
 .large{
   font-size: 130%;
 }
+.xlarge{
+  font-size: 300%;
+}
+.medium{
+  font-size: 110%;
+}
 mark,
 .mark {
   background-color: @state-warning-bg;
@@ -126,7 +132,7 @@ mark,
 .color-primary      { color: @primary; }
 .color-secondary    { color: @secondary; }
 .color-tertiary     { color: @tertiary; }
-
+.color-light        { color: @light;}
 .text-muted {
   color: @text-muted;
 }
