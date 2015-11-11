@@ -6755,6 +6755,9 @@ button.close {
 .border-primary {
   border: 2px solid #04549c;
 }
+.border-bottom {
+  border-bottom: 1px solid #f90f2f;
+}
 .border-right {
   border-right: 1px solid #ffffff;
 }
@@ -6787,6 +6790,9 @@ button.close {
 }
 .footer-space {
   height: 30px;
+}
+.bg-dark {
+  background-color: #000000;
 }
 @-ms-viewport {
   width: device-width;
