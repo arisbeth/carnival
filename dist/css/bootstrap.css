@@ -6756,6 +6756,9 @@ button.close {
 .border-primary {
   border: 2px solid #04549c;
 }
+.border-bottom {
+  border-bottom: 1px solid #f90f2f;
+}
 .border-right {
   border-right: 1px solid #ffffff;
 }
