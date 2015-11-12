@@ -1587,6 +1587,9 @@ a {
 .larger {
   font-size: 170%;
 }
+.line-height {
+  line-height: 12px;
+}
 h3,
 .font-heading {
   font-family: 'Tempo';
