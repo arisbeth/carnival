@@ -1173,9 +1173,6 @@ hr {
   font-family: OpenSans;
   src: url('../../font/OpenSans-Regular.otf');
 }
-.font-heading {
-  font-family: 'Tempo';
-}
 h1,
 h2,
 h3,
@@ -1589,6 +1586,13 @@ a {
 }
 .larger {
   font-size: 170%;
+}
+h3,
+.font-heading {
+  font-family: 'Tempo';
+}
+footer li {
+  font-size: 20px;
 }
 code,
 kbd,
@@ -6675,6 +6679,9 @@ button.close {
 }
 .margin-bottom {
   margin-bottom: 10px;
+}
+.margin-bottom-small {
+  margin-bottom: 5px;
 }
 .margin-small-bottom {
   margin-bottom: 10px;
