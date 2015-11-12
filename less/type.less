@@ -75,9 +75,6 @@ p {
   font-family: 'OpenSans' ;
 }
 
-h4{
-  font-family: 'OpenSans_Bold'
-}
 .lead {
   margin-bottom: @line-height-computed;
   font-size: floor((@font-size-base * 1.15));
@@ -357,7 +354,10 @@ a{
 }
 
 //Paragraph
+.font-size-medium{ font-size: @font-size-h4; }
+
 .font-size-large{ font-size: @font-size-large; }
+
 // underlined
 .underlined{
   text-decoration: underline;
@@ -377,6 +377,10 @@ text-shadow: 2px 2px 1px @dark;
 
 h3, .font-heading{
   font-family: 'Tempo';
+}
+
+h4{
+  font-family: 'OpenSans_Bold'
 }
 
 footer li{
