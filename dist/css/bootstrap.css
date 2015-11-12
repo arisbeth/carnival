@@ -5939,7 +5939,6 @@ button.close {
   overflow: hidden;
 }
 .modal {
-  width: 100vw;
   display: none;
   overflow: hidden;
   position: fixed;
