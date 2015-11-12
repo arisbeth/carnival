@@ -5939,6 +5939,7 @@ button.close {
   overflow: hidden;
 }
 .modal {
+  width: 100vw;
   display: none;
   overflow: hidden;
   position: fixed;
@@ -5979,7 +5980,7 @@ button.close {
   margin: 0px;
 }
 .modal-content {
-  min-height: 100%;
+  height: 100vh;
   position: relative;
   background-color: #ffffff;
 }
@@ -6013,6 +6014,7 @@ button.close {
   line-height: 1.42857143;
 }
 .modal-body {
+  min-height: 100%;
   position: relative;
   padding: 15px;
 }
