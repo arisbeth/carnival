@@ -1291,6 +1291,7 @@ h6,
 p {
   margin: 0 0 10px;
   font-family: 'OpenSans';
+  font-size: 16px;
 }
 .lead {
   margin-bottom: 20px;
@@ -1599,6 +1600,9 @@ h4 {
 }
 footer li {
   font-size: 20px;
+}
+footer p {
+  font-size: 14px;
 }
 code,
 kbd,
