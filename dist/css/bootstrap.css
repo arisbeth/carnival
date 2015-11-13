@@ -1583,7 +1583,7 @@ a {
   font-weight: bold!important;
 }
 .text-shadow {
-  text-shadow: 2px 2px 1px #bdbdbd;
+  text-shadow: 2px 2px 1px #222222;
 }
 .larger {
   font-size: 170%;
@@ -2625,7 +2625,7 @@ output {
 .form-control {
   display: block;
   width: 100%;
-  height: 34px;
+  height: 49px;
   font-size: 14px;
   line-height: 1.42857143;
   color: #555555;
@@ -3100,6 +3100,9 @@ textarea {
   border: none;
   height: 100px!important;
   border-bottom: 1.5px solid #d9534f;
+}
+.form-medium {
+  width: 48%;
 }
 .btn {
   display: inline-block;
@@ -6683,6 +6686,9 @@ button.close {
 .padding-top-sm {
   padding-top: 10%;
 }
+.padding-top-small {
+  padding-top: 10px;
+}
 .padding-right-left {
   padding-left: 10%;
   padding-right: 10%;
@@ -6707,6 +6713,9 @@ button.close {
 }
 .margin-left-medium {
   margin-left: 90px;
+}
+.margin-right {
+  margin-right: 4%;
 }
 .margin-medium {
   margin-bottom: 30px;
