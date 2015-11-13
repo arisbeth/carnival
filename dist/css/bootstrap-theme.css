@@ -3,6 +3,11 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+.center-block1 {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
 .img-home {
   background-image: url('../../img/carnival.jpg');
 }
