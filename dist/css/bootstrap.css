@@ -1593,6 +1593,9 @@ a {
 .line-height {
   line-height: 12px;
 }
+.line-height-large {
+  line-height: 10px;
+}
 .line-height-medium {
   line-height: 8px;
 }
@@ -3107,7 +3110,7 @@ select.contact {
 }
 select.contact {
   border: none;
-  color: #777777 !important;
+  color: #999999 !important;
 }
 textarea {
   border: none;
