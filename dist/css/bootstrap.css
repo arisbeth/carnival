@@ -3120,6 +3120,9 @@ textarea {
 .form-medium {
   width: 48%;
 }
+.form-control-small {
+  height: 34px;
+}
 .btn {
   display: inline-block;
   margin-bottom: 0;
