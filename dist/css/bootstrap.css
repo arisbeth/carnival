@@ -3,11 +3,6 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-.center-block1 {
-  display: block;
-  margin-top: auto;
-  margin-bottom: auto;
-}
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -6649,11 +6644,17 @@ button.close {
 .bg-primary {
   background-color: #04549c;
 }
+.bg-primary-dark {
+  background-color: #3b5998;
+}
 .bg-secondary {
   background-color: #f90f2f;
 }
 .bg-tertiary {
   background-color: #79b2ea;
+}
+.bg-tertiary-dark {
+  background-color: #55acee;
 }
 .bg-darker {
   background-color: #848484;
@@ -6725,6 +6726,9 @@ button.close {
 }
 .margin-left {
   margin-left: 10px;
+}
+.margin-right {
+  margin-right: 10px;
 }
 .margin-left-medium {
   margin-left: 90px;
