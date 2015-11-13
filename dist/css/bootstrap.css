@@ -1593,6 +1593,9 @@ a {
 .line-height {
   line-height: 12px;
 }
+.line-height-medium {
+  line-height: 8px;
+}
 .line-height-small {
   line-height: 2px;
 }
