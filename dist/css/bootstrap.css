@@ -1076,7 +1076,6 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -1581,6 +1580,9 @@ a {
 .font-size-large {
   font-size: 20px;
 }
+.font-size-small {
+  font-size: 12px;
+}
 .underlined {
   text-decoration: underline;
 }
@@ -1596,6 +1598,9 @@ a {
 .line-height {
   line-height: 12px;
 }
+.line-height-small {
+  line-height: 2px;
+}
 h3,
 .font-heading {
   font-family: 'Tempo';
@@ -1605,9 +1610,11 @@ h4 {
 }
 footer li {
   font-size: 20px;
+  font-family: OpenSans;
 }
 footer p {
   font-size: 14px;
+  font-family: OpenSans;
 }
 .img-center {
   vertical-align: middle;
