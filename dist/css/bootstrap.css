@@ -3570,12 +3570,14 @@ input[type="button"].btn-block {
   width: 100%;
 }
 .btn-primary {
-  padding: 3% 10% 3% 10%;
+  padding: 1% 8% 1% 8%;
   border-radius: 50px;
   box-shadow: 2px 2px 7px -2px rgba(0, 0, 0, 0.75);
   background-color: #f90f2f;
   color: #ffffff;
   text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'Tempo';
 }
 .fixed {
   position: fixed;
