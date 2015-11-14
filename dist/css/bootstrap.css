@@ -1593,6 +1593,9 @@ a {
 .line-height {
   line-height: 12px;
 }
+.line-height-extralarge {
+  line-height: 15px;
+}
 .line-height-large {
   line-height: 10px;
 }
