@@ -113,8 +113,9 @@ output {
 
 .form-control {
   display: block;
-  width: 100%;
-  height: @input-height-large; // Make inputs at least the height of their button counterpart (base line-height + padding + border)
+  width: 100%; height: 40px;
+  padding: (@padding-base-vertical*2);
+  font-family: 'Open Sans', sans-serif;
   font-size: @font-size-base;
   line-height: @line-height-base;
   color: @input-color;
@@ -627,30 +628,24 @@ input[type="checkbox"] {
 }
 
 //input border
-
 input, select.contact{
   border-bottom: 1.5px solid @brand-danger!important;
   border-top:none;
   border-right: none;
   border-left: none;
-  }
+}
 
-  //select
-
+//select
 select.contact{
     border:none;
     color: @gray-light1!important;
-  }
-//text-area
-
-textarea{
-  border:none;
-  height:100px!important;
-  border-bottom: 1.5px solid @brand-danger;
 }
 
-.form-medium{
-  width: 48%;
+//text-area
+textarea{
+  height: 100px!important;
+  border: none;
+  border-bottom: 1.5px solid @brand-danger;
 }
 
 .form-control-small{
