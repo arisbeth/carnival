@@ -1,0 +1,87 @@
+.icon{
+  display: inline-block; vertical-align: middle;
+  height: auto !important;
+  margin-right: .2em; margin-left: .2em;
+  .transition;
+}
+
+
+
+
+
+/*------------------------------------*\
+    #SIZES
+\*------------------------------------*/
+
+.icon--responsive{
+    width: 100%; height: auto;
+}
+
+.icon--min{
+    width: 40px;
+}
+
+.icon--iconed{
+    width: 16px !important;
+
+    @media (min-width: @screen-sm-min){
+        //width: 8em;
+    }
+}
+
+.icon--iconed--mini{
+    width: 20px !important;
+
+    @media (min-width: @screen-md-min){
+        //width: 8em;
+    }
+}
+
+.icon--iconed--micro{
+    width: 10px !important;
+
+    @media (min-width: @screen-lg-min){
+        //width: 8em;
+    }
+}
+
+.icon--feature{
+    width: 6em !important;
+}
+
+.icon--logo{
+    width: 150px; height: auto;
+}
+
+
+
+
+
+
+/*------------------------------------*\
+  #COLOR
+\*------------------------------------*/
+
+/**
+ * Fill
+**/
+.icon--fill path,
+.icon--fill line,
+.icon--fill circle,
+.icon--fill ellipse,
+.icon--fill polyline,
+.icon--fill polygon{ fill: currentColor; }
+
+/**
+ * Stroke
+**/
+.icon--stroke{ stroke-width: 0.7; }
+
+.icon--thickness-2{ stroke-width: 2; }
+
+.icon--stroke path,
+.icon--stroke line,
+.icon--stroke circle,
+.icon--stroke ellipse,
+.icon--stroke polyline,
+.icon--stroke polygon{ stroke: currentColor; }

@@ -3,29 +3,30 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<title>Carnival</title>
 
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<header class="[ bg-light ][ margin-bottom ]">
+		<header class="[ bg-light ][ padding--top-bottom--small ]">
 			<div class="[ container ]">
-				<div class="[ col-xs-6 ][ col-lg-3 ][ ]">
-					<!--logo carnival-->
-					<a href="index.html"><img class="[ img-responsive ][ padding-top-sm ]" src="img/carnival-logo.png"></a>
-				</div>	
-				<div class="[ hidden-lg ][ col-xs-2 ][ pull-right ]">
-					<a data-toggle="modal" data-target="#myModal">
-						<span class="[ glyphicon glyphicon-align-justify ][ color-secondary ]"></span>
+				<div class="[ col-xs-6 col-lg-3 ][ no-padding ]">
+					<a href="index.html" class="[ show ]">
+						<img class="[ logo-carnival ][ padding-top-sm ]" src="img/carnival-logo.png">
 					</a>
 				</div>
-				
+				<div class="[ hidden-lg ][ col-xs-6 ][ text-right ][ no-padding ]">
+					<a data-toggle="modal" data-target="#myModal">
+						<img src="icons/navigation.svg" class="[ svg ][ icon icon--min icon--stroke ][ color-secondary ]" alt="">
+					</a>
+				</div>
+
 				<!--
 				<div class="[ hidden-lg ][ col-xs-2 ][ pull-right ]">
 					<a class="[ dropdown-toggle ]" data-toggle="dropdown">
 						<span class="[ glyphicon glyphicon-align-justify ][ color-secondary ]"></span>
-					</a>			 
+					</a>
 					<ul class="[ bg-primary ][ text-center ][ dropdown-menu ]" role="menu">
 						<li><a href="#">¿Por qué cruceros Carnival?</a></li>
 						<li><a href="destinos.html">Destinos</a></li>
@@ -34,7 +35,7 @@
 						<li><a href="#">Barcos</a></li>
 						<li><a href="#">Peguntas frecuentes</a></li>
 					</ul>
-				</div>	-->		
+				</div>	-->
 			</div>
 			<div class="[ visible-lg ][ col-lg-12 ][ bg-primary ] ">
 				<ul class="[ nav nav-pills ] [ margin-auto ]">
@@ -48,46 +49,51 @@
 			</div>
 		</header>
 
-<!--  img home / punchline-->
-		<section class="[ row ][ img-home rectangule-medium ]">
-			<div class="[ center-full ][ text-light ][ text-shadow ][ text-center ] ">
-				<h1 class="[ font-heading ]">LOREM IPSUM</h1>
-				<p class="[ font-size-large ]">Ipsum dolor sit amet,consectetur amet adipisicing.</p>
+		<!--  img home / punchline-->
+		<section class="[ hero ][ bg-image ]" style="background-image: url('img/carnival.jpg');">
+			<div class="[ container ][ relative ]">
+				<div class="[ hero__text ][ text-light text-shadow text-center ] ">
+					<h1 class="[ text-uppercase ][ no-margin ]">LOREM IPSUM</h1>
+					<p class="[ font-size-large ]">Ipsum dolor sit amet,consectetur amet adipisicing.</p>
+				</div>
 			</div>
 		</section>
+
 		<!--  formulario encuentra un crucero-->
-		<section class="[ row ][ bg-tertiary ]">
-			<div class="[ padding-right-left ]">
-				<h2 class="[ text-center text-light font-heading ]">ENCUENTRA UN CRUCERO</h2>
-				<form role="form">
-					<select class="[ col-xs-6 ][ form-control form-medium ][ margin-bottom ][ border-primary ][ arrow ]">
-						<option>Destino</option>
-						<option>Destino</option>
-						<option>Destino</option>
-						<option>Destino</option>
-					</select>
-					<select class="[ col-xs-6 ][ pull-right ][ form-control form-medium ][ border-primary ][ margin-bottom ][ arrow ]" >
-						<option>Salida</option>
-						<option>Salida</option>
-						<option>Salida</option>
-						<option>Salida</option>
-					</select>
-					<select class="[ col-xs-12 ][ form-control ][ border-primary ][ margin-bottom ][ arrow ]">
-						<option>Fecha de Salida</option>
-						<option>Fecha de Salida</option>
-						<option>Fecha de Salida</option>
-						<option>Fecha de Salida</option>
-					</select>
-					<select class="[ col-xs-12 ][ form-control ][ border-primary ][ margin-medium ][ arrow ]">
-						<option>Pasajeros</option>
-						<option>Pasajeros</option>
-						<option>Pasajeros</option>
-						<option>Pasajeros</option>
-					</select>
-					<div class="[ text-center ][ margin-medium ]">
-						<button type="submit" class="[ btn btn-primary ]">Buscar</button>
-					</div>				  
-				</form>			
+		<section class="[ bg-tertiary ]">
+			<div class="[ container ]">
+				<div class="[ padding--top-bottom--xxlarge ]">
+					<h2 class="[ text-center text-light font-heading ]">ENCUENTRA UN CRUCERO</h2>
+					<form role="form">
+						<select class="[ col-xs-6 ][ form-control form-medium ][ margin-bottom ][ border-primary ][ arrow ]">
+							<option>Destino</option>
+							<option>Destino</option>
+							<option>Destino</option>
+							<option>Destino</option>
+						</select>
+						<select class="[ col-xs-6 ][ pull-right ][ form-control form-medium ][ border-primary ][ margin-bottom ][ arrow ]" >
+							<option>Salida</option>
+							<option>Salida</option>
+							<option>Salida</option>
+							<option>Salida</option>
+						</select>
+						<select class="[ col-xs-12 ][ form-control ][ border-primary ][ margin-bottom ][ arrow ]">
+							<option>Fecha de Salida</option>
+							<option>Fecha de Salida</option>
+							<option>Fecha de Salida</option>
+							<option>Fecha de Salida</option>
+						</select>
+						<select class="[ col-xs-12 ][ form-control ][ border-primary ][ margin-medium ][ arrow ]">
+							<option>Pasajeros</option>
+							<option>Pasajeros</option>
+							<option>Pasajeros</option>
+							<option>Pasajeros</option>
+						</select>
+						<div class="[ text-center ][ margin-medium ]">
+							<button type="submit" class="[ btn btn-primary ]">Buscar</button>
+						</div>
+					</form>
+				</div>
 			</div>
 		</section>
 		<!--  banners -->
@@ -110,8 +116,8 @@
 			<div class="[ container ][ color-secondary ][ margin-small ]">
 				<h3 class=" [ text-uppercase font-heading ] ">Carnival visita: meet our new ship</h3>
 			</div>
-			<iframe controls src="https://player.vimeo.com/video/36257948" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
-		</section>	
+			<iframe controls src="https://player.vimeo.com/video/36257948" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</section>
 		<!--premios-->
 		<hr class="[ divider ]">
 		<section>
@@ -135,7 +141,7 @@
 					<button type="submit" class="[ btn bg-tertiary-dark ][ text-light ] "><i class="[ fa fa-twitter ][ padding-right ]"></i>Twitter</button>
 					<button type="submit" class="[ btn bg-primary-dark ][ text-light ] "><i class="[ fa fa-facebook ][ padding-right ]"></i>Facebook</button>
 				</div>
-				
+
 			</div>
 		</section>
 
@@ -160,7 +166,7 @@
 		<div id="myModal" class="modal fade" role="dialog">
 			<div class="modal-dialog">
 				<div class="modal-content [ color-light ][ text-center ]">
-					<header class="[ bg-light ][ margin-bottom ]">
+					<div class="[ modal-header ][ bg-light ][ padding--bottom--small ]">
 						<div class="[ container ]">
 							<div class="[ col-xs-6 ][ col-lg-3 ][ ]">
 								<!--logo carnival-->
@@ -168,9 +174,9 @@
 							</div>
 							<div class="[ col-xs-2 ][ pull-right ]">
 								<p type="button" class="[ xlarge ][ closer ][ text-secondary ]" data-dismiss="modal">&times;</p>
-							</div>	
+							</div>
 						</div>
-					</header>
+					</div>
 					<div class="[ modal-body ][ bg-primary ]">
 						<p class="[ margin-medium margin-top ][ large ]"><a class="[ color-light ]" href="cruceros.html">¿Por qué cruceros Carnival?</a></p>
 						<p class="[ margin-medium ][ large ]"><a class="[ color-light ]" href="destinos.html">Destinos</a></p>
@@ -184,11 +190,31 @@
 		</div>
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>->
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.0/js/bootstrap.min.js"></script>
+		<script src="js/functions.js"></script>
 		<script>
-			$('#send_btn').popover({content: 'Thank You'},'click');
+			$( document ).ready(function() {
+
+
+				/**
+				 * On ready
+				**/
+
+				imgToSvg();
+
+
+				/**
+				 * Triggered events
+				**/
+
+
+
+
+
+				//$('#send_btn').popover({content: 'Thank You'},'click');
+
+			});
 		</script>
 
 	</body>
