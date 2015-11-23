@@ -3,24 +3,39 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css">
-		<title>Destinos Carnival</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Carnival</title>
 
-
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<header class="[ bg-light ][ margin-bottom ]">
+		<header class="[ bg-light ][ padding--top-bottom--small ][ margin-bottom ]">
 			<div class="[ container ]">
-				<div class="[ col-xs-6 ][ col-lg-3 ][ ]">
-					<!--logo carnival-->
-					<a href="index.html"><img class="[ img-responsive ][ padding-top-sm ]" src="img/carnival-logo.png"></a>
-				</div>
-				<div class="[ hidden-lg ][ col-xs-2 ][ pull-right ]">
-					<a data-toggle="modal" data-target="#myModal">
-						<span class="[ glyphicon glyphicon-align-justify ][ color-secondary ]"></span>
+				<div class="[ col-xs-6 col-lg-3 ][ no-padding ]">
+					<a href="index.html" class="[ show ]">
+						<img class="[ logo-carnival ][ padding-top-sm ]" src="img/carnival-logo.png">
 					</a>
 				</div>
+				<div class="[ hidden-lg ][ col-xs-6 ][ text-right ][ no-padding ]">
+					<a data-toggle="modal" data-target="#myModal">
+						<img src="icons/navigation.svg" class="[ svg ][ icon icon--min icon--stroke ][ color-secondary ]" alt="">
+					</a>
+				</div>
+
+				<!--
+				<div class="[ hidden-lg ][ col-xs-2 ][ pull-right ]">
+					<a class="[ dropdown-toggle ]" data-toggle="dropdown">
+						<span class="[ glyphicon glyphicon-align-justify ][ color-secondary ]"></span>
+					</a>
+					<ul class="[ bg-primary ][ text-center ][ dropdown-menu ]" role="menu">
+						<li><a href="#">¿Por qué cruceros Carnival?</a></li>
+						<li><a href="destinos.html">Destinos</a></li>
+						<li><a href="#">Actividades</a></li>
+						<li><a href="#">Antes de Viajar</a></li>
+						<li><a href="#">Barcos</a></li>
+						<li><a href="#">Peguntas frecuentes</a></li>
+					</ul>
+				</div>	-->
 			</div>
 			<div class="[ visible-lg ][ col-lg-12 ][ bg-primary ] ">
 				<ul class="[ nav nav-pills ] [ margin-auto ]">
@@ -34,38 +49,58 @@
 			</div>
 		</header>
 
-		<div class="[ row ][ text-center ]">
-			<h3 class=" [ text-uppercase text-center ] [ color-secondary ] ">Destinos</h3>
+		<div class="[ text-center ]">
+			<h2 class=" [ text-uppercase text-center ] [ color-secondary ] ">Destinos</h2>
 		</div>
 
 		<!--  destinos images -->
-		<section class="[ text-center ][ row ]">
-			<div class="[ img-destinos square ][ text-light ][ text-shadow ][ margin-bottom padding-top ]">
-				<h3 class=" [ text-uppercase ] ">Caribe</h3>
-			</div>
-			<div class="[ img-destinos rectangle ][ text-light ][ text-shadow ][ margin-bottom padding-top ]">
-				<h3 class=" [ text-uppercase ] ">Mexico</h3>
-			</div>
-			<div class="[ img-destinos rectangle ][ text-light ][ margin-bottom padding-top ]">
-				<h3 class=" [ text-uppercase ][ text-shadow ]">Alaska</h3>
-			</div>
-			<div class="[ img-destinos rectangle ][ margin-bottom padding-large ]">
-				<h3 class="[ text-light ][ text-uppercase ][ text-shadow ]">Hawai</h3>
-			</div>
-			<div class="[ img-destinos rectangle ][ text-light ][ text-shadow ][ margin-bottom padding-top ]">
-				<h3 class=" [ text-uppercase ] ">Bahamas</h3>
-			</div>
-			<div class="[ img-destinos rectangle ][ text-light ][ text-shadow ][ margin-bottom padding-top ]">
-				<h3 class=" [ text-uppercase ] ">Australia</h3>
-			</div>
-			<div class="[ img-destinos rectangle ][ text-light ][ margin-bottom padding-top ]">
-				<h3 class=" [ text-uppercase ][ text-shadow ]">Bermuda</h3>
-			</div>
-			<div class="[ img-destinos rectangle ][ margin-bottom padding-large ]">
-				<h3 class="[ text-light ][ text-uppercase ][ text-shadow ]">Canada - New England</h3>
-			</div>
-			<div class="[ img-destinos rectangle ][ margin-bottom padding-large ]">
-				<h3 class="[ text-light ][ text-uppercase ][ text-shadow ]">Europe</h3>
+		<section class="[ text-center ][ banners ][ margin-bottom--xlarge ]">
+			<div class="[ banners__container ]">
+				<div class="[ bg-image square ][ text-light text-shadow ][ margin-bottom ][ relative ]" style="background-image: url('img/destinos.jpg');">
+					<div class="[ center-full ][ width-90 ]">
+						<h2 class=" [ text-uppercase font-heading ][ no-margin ] ">Caribe</h2>
+					</div>
+				</div>
+				<div class="[ bg-image rectangle ][ text-light text-shadow ][ margin-bottom ][ relative ]" style="background-image: url('img/destinos.jpg');">
+					<div class="[ center-full ][ width-90 ]">
+						<h2 class=" [ text-uppercase font-heading ][ no-margin ] ">México</h2>
+					</div>
+				</div>
+				<div class="[ bg-image rectangle ][ text-light text-shadow ][ margin-bottom ][ relative ]" style="background-image: url('img/destinos.jpg');">
+					<div class="[ center-full ][ width-90 ]">
+						<h2 class=" [ text-uppercase font-heading ][ no-margin ] ">Alaska</h2>
+					</div>
+				</div>
+				<div class="[ bg-image rectangle ][ text-light text-shadow ][ margin-bottom ][ relative ]" style="background-image: url('img/destinos.jpg');">
+					<div class="[ center-full ][ width-90 ]">
+						<h2 class=" [ text-uppercase font-heading ][ no-margin ] ">Hawái</h2>
+					</div>
+				</div>
+				<div class="[ bg-image rectangle ][ text-light text-shadow ][ margin-bottom ][ relative ]" style="background-image: url('img/destinos.jpg');">
+					<div class="[ center-full ][ width-90 ]">
+						<h2 class=" [ text-uppercase font-heading ][ no-margin ] ">Bahamas</h2>
+					</div>
+				</div>
+				<div class="[ bg-image rectangle ][ text-light text-shadow ][ margin-bottom ][ relative ]" style="background-image: url('img/destinos.jpg');">
+					<div class="[ center-full ][ width-90 ]">
+						<h2 class=" [ text-uppercase font-heading ][ no-margin ] ">Australia</h2>
+					</div>
+				</div>
+				<div class="[ bg-image rectangle ][ text-light text-shadow ][ margin-bottom ][ relative ]" style="background-image: url('img/destinos.jpg');">
+					<div class="[ center-full ][ width-90 ]">
+						<h2 class=" [ text-uppercase font-heading ][ no-margin ] ">Bermudas</h2>
+					</div>
+				</div>
+				<div class="[ bg-image rectangle ][ text-light text-shadow ][ margin-bottom ][ relative ]" style="background-image: url('img/destinos.jpg');">
+					<div class="[ center-full ][ width-90 ]">
+						<h2 class=" [ text-uppercase font-heading ][ no-margin ] ">Canada - New England</h2>
+					</div>
+				</div>
+				<div class="[ bg-image rectangle ][ text-light text-shadow ][ relative ]" style="background-image: url('img/destinos.jpg');">
+					<div class="[ center-full ][ width-90 ]">
+						<h2 class=" [ text-uppercase font-heading ][ no-margin ] ">Europe</h2>
+					</div>
+				</div>
 			</div>
 		</section>
 
