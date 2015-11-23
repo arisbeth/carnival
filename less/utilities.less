@@ -3,7 +3,7 @@
 // --------------------------------------------------
 
 
-// Floats
+// Centers
 // -------------------------
 
 .clearfix {
@@ -12,6 +12,12 @@
 .center-block {
   .center-block();
 }
+.center-full{
+  .center-full();
+}
+
+// Floats
+// -------------------------
 .pull-right {
   float: right !important;
 }
@@ -58,21 +64,30 @@
 // -------------------------
 
 .bg-primary{   background-color: @primary; }
-.bg-primary-dark{   background-color: @primary-dark; }
 .bg-secondary{   background-color: @secondary; }
 .bg-tertiary{   background-color: @tertiary; }
-.bg-tertiary-dark{   background-color: @tertiary-dark; }
 .bg-darker{   background-color: @darker; }
 .bg-dark{   background-color: @dark; }
 .bg-quaternary{   background-color: @quaternary; }
-.bg-secondary-2{background-color: @light+@secondary;}
+
+.bg-facebook{   background-color: @facebook; }
+.bg-twitter{   background-color: @twitter; }
 
 
 // Box model
 // -------------------------
 
 .width-100{ width: 100%; }
+.width-90{ width: 90%; }
+.width-80{ width: 80%; }
+.width-70{ width: 70%; }
+.width-60{ width: 60%; }
 .width-50{ width: 50%; }
+.width-40{ width: 40%; }
+.width-30{ width: 30%; }
+.width-20{ width: 20%; }
+.width-10{ width: 10%; }
+.width-0{ width: 0%; }
 
 //height
 .height-100{ height: 100%;}
@@ -122,32 +137,14 @@
 .padding--left--xxlarge{ padding-left: (@padding-base-vertical*8); }
 
 
-// .padding-medium{ padding-right: 50%; }
-// .padding-left{ padding-left: 50%; }
-// .padding-right{ padding-right: 6px;}
-// .padding-extralarge{ padding: 0 @padding-extralarge; }
-// .padding-small{ padding: 0 @padding-small; }
-// .padding-large{ padding: @padding-large; }
-// .padding-primary{ padding: @padding-primary 0; }
-// .padding-top-bottom-small{
-//   padding-top: @padding-small; padding-bottom: @padding-small;
-// }
-// .padding-md{padding: @padding-small;}
-// .padding-top{padding-top: @padding-large;}
-// .padding-top-sm{ padding-top: @padding-small}
-// .padding-top-small{ padding-top: @padding-small-horizontal;}
-
-// .padding-right-left{
-//   padding-left: 10%;
-//   padding-right:10%;
-// }
-
 
 // Border
 // -------------------------
 .no-border{ border: none; }
 
 .border-primary{ border: 2px solid @primary; }
+.border--top--primary{ border-top: 2px solid @primary; }
+
 .border-bottom{ border-bottom: 1px solid @secondary; }
 
 .border-right{ border-right: 1px solid @light; }
@@ -167,6 +164,8 @@
 .margin-bottom--xsmall{ margin-bottom: (@margin-base/4); }
 .margin-bottom--small{ margin-bottom: (@margin-base/2); }
 .margin-bottom--large{ margin-bottom: (@margin-base*2); }
+.margin-bottom--xlarge{ margin-bottom: (@margin-base*4); }
+.margin-bottom--xxlarge{ margin-bottom: (@margin-base*8); }
 
 .margin-top{ margin-top: @margin-base; }
 .margin-top--small{ margin-top: (@margin-base/2); }
@@ -212,34 +211,6 @@
 }
 
 
-
-.folder {
-	width: 250px;
-	height: 0px;
-	border-right: 60px solid transparent;
-	border-left: 0px solid transparent;
-	padding: 5px 10px;
-}
-
-.folder-reverse {
-	border-right: 0px solid transparent;
-	border-left: 60px solid transparent;
-	float: right;
-}
-
-.folder-darker{
-	 border-bottom: 50px solid #848484;
-}
-
-.folder-dark{
-	 border-bottom: 50px solid #BDBDBD;
-}
-
-.folder-quaternary{
-	 border-bottom: 50px solid #A4A4A4;
-}
-
-
 //divider
 
 .divider{
@@ -267,10 +238,10 @@
 .text-secondary{ color: @secondary; }
 .danger{ color: @brand-danger; }
 
-//map
+// Map
+// -------------------------
 .map{
-  width: 100%;
-  height: 300px;
+  width: 100%; height: 300px;
 }
 
 .bg-map{
@@ -280,19 +251,39 @@
 }
 
 
-//footer-space
-
-.footer-space{
-  height:30px;
-}
-
-
-// Center full
-.center-full{
-  .center-full();
-}
-
-
 // Animations
 // -------------------------
 
+
+// Z index
+// -------------------------
+
+/**
+ * Variables
+**/
+
+@zIndex-1:  100;
+@zIndex-2:  200;
+@zIndex-3:  300;
+@zIndex-4:  400;
+@zIndex-5:  500;
+@zIndex-6:  600;
+@zIndex-7:  700;
+@zIndex-8:  800;
+@zIndex-9:  900;
+@zIndex-10: 1000;
+
+/**
+ * Applications
+**/
+
+.z-index-1{ z-index: @zIndex-1; }
+.z-index-2{ z-index: @zIndex-2; }
+.z-index-3{ z-index: @zIndex-3; }
+.z-index-4{ z-index: @zIndex-4; }
+.z-index-5{ z-index: @zIndex-5; }
+.z-index-6{ z-index: @zIndex-6; }
+.z-index-7{ z-index: @zIndex-7; }
+.z-index-8{ z-index: @zIndex-8; }
+.z-index-9{ z-index: @zIndex-9; }
+.z-index-10{ z-index:@zIndex-10; }
