@@ -251,6 +251,7 @@
 .color-graylight{ color: @gray-light}
 .text-secondary{ color: @secondary; }
 .danger{ color: @brand-danger; }
+.color-primarylight{ color: @primary-lighten; }
 
 // Map
 // -------------------------
@@ -302,21 +303,3 @@
 .z-index-8{ z-index: @zIndex-8; }
 .z-index-9{ z-index: @zIndex-9; }
 .z-index-10{ z-index:@zIndex-10; }
-
-
-ul.horizontal-slide {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    white-space: nowrap;
-    overflow-x: auto;
-}
-
-ul.horizontal-slide li[class*="col"] {
-    display: inline-block;
-    float: none;
-}
-
-ul.horizontal-slide li[class*="col"]:first-child {
-    margin-left: 0;
-}
