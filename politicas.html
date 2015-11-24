@@ -3,21 +3,22 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<title>Carnival</title>
 
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<header class="[ bg-light ][ margin-bottom ]">
+		<header class="[ bg-light ][ padding--top-bottom--small ][ margin-bottom ]">
 			<div class="[ container ]">
-				<div class="[ col-xs-6 ][ col-lg-3 ][ ]">
-					<!--logo carnival-->
-					<a href="index.html"><img class="[ img-responsive ][ padding-top-sm ]" src="img/carnival-logo.png"></a>
-				</div>	
-				<div class="[ hidden-lg ][ col-xs-2 ][ pull-right ]">
+				<div class="[ col-xs-6 col-lg-3 ][ no-padding ]">
+					<a href="index.html" class="[ show ]">
+						<img class="[ logo-carnival ][ padding-top-sm ]" src="img/carnival-logo.png">
+					</a>
+				</div>
+				<div class="[ hidden-lg ][ col-xs-6 ][ text-right ][ no-padding ]">
 					<a data-toggle="modal" data-target="#myModal">
-						<span class="[ glyphicon glyphicon-align-justify ][ color-secondary ]"></span>
+						<img src="icons/navigation.svg" class="[ svg ][ icon icon--min icon--stroke ][ color-secondary ]" alt="">
 					</a>
 				</div>
 			</div>
@@ -32,8 +33,8 @@
 				</ul>
 			</div>
 		</header>
-		<section class="[ container ]">
-			<h3 class=" [ text-uppercase text-center ] [ color-secondary ][ margin-medium ]">Políticas</h3>
+		<section class="[ container ][ margin-bottom ]">
+			<h2 class=" [ text-uppercase text-center ] [ color-secondary ]">Políticas</h2>
 			<h4 class="[ color-primary ][ margin-bottom ]">Reservaciones</h4>
 			<p>CRUCERO Todas las reservaciones de nuestros Cruceros deberán solicitarse preferentemente por escrito proporcionando Nombre y Apellido paterno de los pasajeros, Edad y Fecha de Nacimiento así como barco, fecha de salida, categoria y acomodo seleccionado. Nuestros ejecutivos enviaran a Ustedes por escrito la confirmación de la misma donde a los datos mencionados adjuntaran, costos y tiempos limites, les pedimos considerar que en caso de vencimiento del tiempo límite no se garantiza la rinstalación integra de su reserva corriendo riesgos de modificaciones en la misma.</p>
 			<p>En cuanto a los tiempos llimites para la gente que cuenta con Sistema de Cruise Director todos quedarán hasta las 14:00 Hrs. a excepción de que el sistema indique un horario inferior a este y ¿se deberá considerar que los Horarios que este sistema maneja son de acuerdo a Miami, Fl.</p>
@@ -47,58 +48,77 @@
 			<p>Agradecemos su cooperación para evitar contratiempos a nuestros clientes entregándoles la información pertinente para que disfruten de un viaje placentero.</p>
 			<p>INFORMACIÓN MIGRATORIA</p>
 			<p>Recuerde a sus pasajeros de nacionalidad Mexicana  tener visa de entradas múltipes a USA y/o Canadá, así como pasaporte con vigencia mínima de seis meses, para cualquiera de nuestros recorridos, ya que sin estos documentos no podrán abordar.</p>
-			
-					
 		</section>
 
-		<!--premios-->
-		<hr class="[ divider ]">
-		<section>
-			<div class="[ container ][ row ]">
-				<h4 class="[ text-center text-uppercase ][ color-primary ]"> Premios </h4>
-				<div class="[ col-xs-4 ]">
-					<img class="[ img-responsive ]" src="img/premios/bon_voyage.jpg">
+		<a class="[ btn btn-primary btn--action btn--action--left ][ visible-xs-block ]" href="#login">
+			<img class="[ svg ][ icon icon--iconed--large icon--stroke icon--thickness-1 ][ color-light ][ no-margin ]" src="icons/phone.svg">
+		</a>
+		<a class="[ btn btn-primary btn--action btn--action--right ][ visible-xs-block ]" href="">
+			<!-- <span class="[ notification notification__number ][ js-notification__number ]">1</span> -->
+			<img class="[ svg ][ icon icon--iconed--large icon--stroke icon--thickness-1 ][ color-light ][ no-margin ]" src="icons/promotions.svg">
+		</a>
+
+		<footer class="[ border--top--primary margin-bottom ]">
+			<div class="[ container ]">
+				<div class="[ row ][ margin-bottom--large ]">
+
+					<section class="[ premios ][ padding--top-bottom--large ][ col-xs-12 col-sm-6 col-md-3 ]">
+						<h3 class="[ text-center text-uppercase ][ color-primary ][ margin-bottom ]"> Premios </h3>
+						<div class="[ row ]">
+							<div class="[ col-xs-4 ]">
+								<img class="[ img-responsive ]" src="img/premios/bon_voyage.jpg">
+							</div>
+							<div class="[ col-xs-4 ]">
+								<img class="[ img-responsive ]" src="img/premios/premios_porthole.jpg">
+							</div>
+							<div class="[ col-xs-4 ]">
+								<img class="[ img-responsive ]" src="img/premios/caribbean_news.jpg">
+							</div>
+						</div>
+					</section>
+
+					<section class="[ social ][ padding--top-bottom--large ][ col-xs-12 col-sm-6 col-md-3 ]">
+						<h3 class="[ text-center text-uppercase ][ color-primary ][ margin-bottom ]"> Síguenos </h3>
+						<div class="[ text-center ]">
+							<button type="submit" class="[ btn bg-twitter ][ text-light ] ">
+								<img src="icons/twitter.svg" class="[ svg ][ icon icon--iconed icon--fill ][ color-light ]" alt="">
+								Twitter
+							</button>
+							<button type="submit" class="[ btn bg-facebook ][ text-light ] ">
+								<img src="icons/facebook.svg" class="[ svg ][ icon icon--iconed icon--fill ][ color-light ]" alt="">
+								Facebook
+							</button>
+						</div>
+					</section>
+
+					<section class="[ site-links ][ bg-primary ][ text-center text-light ][ padding--top-bottom--large ][ col-xs-12 col-sm-6 col-md-3 ]">
+						<h3 class="[ text-uppercase ][ color-light ][ margin-bottom ]"> Links </h3>
+						<a class="[ site-links__link ]" href="registro.html">Registro de agencias</a>
+						<a class="[ site-links__link ]" href="folletos.html">Folletos</a>
+						<a class="[ site-links__link ]" href="directorio.html">Directorio</a>
+						<a class="[ site-links__link ]" href="politicas.html">Políticas</a>
+						<a class="[ site-links__link ]" href="contacto.html">Contacto</a>
+					</section>
+
+					<section class="[ site-links ][ bg-primary ][ text-center text-light ][ padding--top-bottom--large ][ col-xs-12 col-sm-6 col-md-3 ]">
+						<h3 class="[ text-uppercase ][ color-light ][ margin-bottom ]"> Visas </h3>
+						<a class="[ site-links__link ]" href="">Canada</a>
+						<a class="[ site-links__link ]" href="">Estados Unidos</a>
+					</section>
+
 				</div>
-				<div class="[ col-xs-4 ]">
-					<img class="[ img-responsive ]" src="img/premios/premios_porthole.jpg">
-				</div>
-				<div class="[ col-xs-4 ]">
-					<img class="[ img-responsive ]" src="img/premios/caribbean_news.jpg">
-				</div>
+				<section class="[ text-center ][ padding-top-bottom-small ]">
+					<p>Todos los derehos reservados 2006-2015 <br>Carnival Corporation</p>
+				</section>
 			</div>
-		</section>
-		<section>
-			<div class="[ container ][ padding-top-bottom-small ]">
-				<h4 class="[ text-center text-uppercase ][ color-primary ]"> Síguenos</h4>
-				<div class="[ text-center ]">
-					<button type="submit" class="[ btn bg-tertiary-dark ][ text-light ] "><i class="[ fa fa-twitter ][ padding-right ]"></i>Twitter</button>
-					<button type="submit" class="[ btn bg-primary-dark ][ text-light ] "><i class="[ fa fa-facebook ][ padding-right ]"></i>Facebook</button>
-				</div>
-				
-			</div>
-		</section>
-		<footer>
-			<section class="[ bg-primary ][ text-center ][ text-light ][ padding-top-bottom-small ]">
-				<h4 class="[ text-uppercase ]">links</h4>
-				<a class="[ list-inline ][ text-light ]" href="registro.html"><li>Registro de agencias</li></a>
-				<a class="[ list-inline ][ text-light ]" href="folletos.html"><li>Folletos</li></a>
-				<a class="[ list-inline ][ text-light ]" href="directorio.html"><li>Directorio</li></a>
-				<a class="[ list-inline ][ text-light ]" href="politicas.html"><li>Políticas</li></a>
-				<a class="[ list-inline ][ text-light ]" href="contacto.html"><li>Contacto</li></a>
-				<h4 class="[ text-center text-uppercase ]">visas</h4>
-				<a class="[ list-inline ][ text-light ]" href=""><li>Canada</li></a>
-				<a class="[ list-inline ][ text-light ]" href=""><li>Estados Unidos</li></a>
-			</section>
-			<section class="[ text-center ][ padding-top-bottom-small ]">
-				<p>Todos los derehos reservados 2006-2015 <br>Carnival Corporation</p>
-			</section>
+
 		</footer>
 
-		<!-- Modal -->
-		<div id="myModal" class="modal fade" role="dialog">
-			<div class="modal-dialog">
-				<div class="modal-content [ color-light ][ text-center ]">
-					<header class="[ bg-light ][ margin-bottom ]">
+	<!-- Modal -->
+		<div id="myModal" class="[ modal fade ]" role="dialog">
+			<div class="[ modal-dialog ]">
+				<div class="[ modal-content ][ color-light ][ text-center ]">
+					<div class="[ modal-header ][ bg-light ][ padding--bottom--small ]">
 						<div class="[ container ]">
 							<div class="[ col-xs-6 ][ col-lg-3 ][ ]">
 								<!--logo carnival-->
@@ -106,27 +126,47 @@
 							</div>
 							<div class="[ col-xs-2 ][ pull-right ]">
 								<p type="button" class="[ xlarge ][ closer ][ text-secondary ]" data-dismiss="modal">&times;</p>
-							</div>	
+							</div>
 						</div>
-					</header>
-					<div class="[ modal-body ][ bg-primary ]">
-						<p class="[ margin-medium margin-top ][ large ]"><a class="[ color-light ]" href="cruceros.html">¿Por qué cruceros Carnival?</a></p>
-						<p class="[ margin-medium ][ large ]"><a class="[ color-light ]" href="destinos.html">Destinos</a></p>
-						<p class="[ margin-medium ][ large ]"><a class="[ color-light ]" href="actividades.html">Actividades</a></p>
-						<p class="[ margin-medium ][ large ]"><a class="[ color-light ]" href="antes-viajar.html">Antes de Viajar</a></p>
-						<p class="[ margin-medium ][ large ]"><a class="[ color-light ]" href="barcos.html">Barcos</a></p>
-						<p class="[ margin-medium ][ large ]"><a class="[ color-light ]" href="preguntas-frecuentes.html">Peguntas frecuentes</a></p>
+					</div>
+					<div class="[ modal-body ][ bg-primary ][ large ][ padding--top--xxlarge ]">
+						<p class="[ margin-bottom--large ]"><a class="[ color-light ]" href="cruceros.html">¿Por qué cruceros Carnival?</a></p>
+						<p class="[ margin-bottom--large ]"><a class="[ color-light ]" href="destinos.html">Destinos</a></p>
+						<p class="[ margin-bottom--large ]"><a class="[ color-light ]" href="actividades.html">Actividades</a></p>
+						<p class="[ margin-bottom--large ]"><a class="[ color-light ]" href="antes-viajar.html">Antes de Viajar</a></p>
+						<p class="[ margin-bottom--large ]"><a class="[ color-light ]" href="barcos.html">Barcos</a></p>
+						<p class="[ margin-bottom--large ]"><a class="[ color-light ]" href="preguntas-frecuentes.html">Peguntas frecuentes</a></p>
 					</div>
 				</div>
 			</div>
 		</div>
-		
+
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.0/js/bootstrap.min.js"></script>
+		<script src="js/functions.js"></script>
 		<script>
-			$('#send_btn').popover({content: 'Thank You'},'click');
+			$( document ).ready(function() {
+
+
+				/**
+				 * On ready
+				**/
+
+				imgToSvg();
+
+
+				/**
+				 * Triggered events
+				**/
+
+
+
+
+
+				//$('#send_btn').popover({content: 'Thank You'},'click');
+
+			});
 		</script>
 
 	</body>
