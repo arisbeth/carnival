@@ -5402,6 +5402,9 @@ a.thumbnail.active {
 .img-size-xs {
   width: 20%;
 }
+.img-auto {
+  margin: auto;
+}
 .icon {
   display: inline-block;
   vertical-align: middle;
