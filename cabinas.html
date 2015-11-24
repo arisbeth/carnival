@@ -8,6 +8,7 @@
 
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
 	</head>
+
 	<body>
 		<header class="[ bg-light ][ padding--top-bottom--small ]">
 			<div class="[ container ]">
@@ -33,46 +34,112 @@
 				</ul>
 			</div>
 		</header>
-<!-- tabla resultados -->
-		<section>
-			<div class="[ container ]">
+
+		<div class="[ container ]">
 				<h2 class=" [ text-uppercase text-center ] [ color-secondary ][ margin-top ]">Cabinas</h2>
-				<table class="[ table ]">
-				<tbody>
-					<tr class="[ strong ][ bg-danger ]">
-						<td></td>
-						<td>Nº Cab</td>
-						<td>Cubierta</td>
-						<td>Cap</td>
-						<td>Desc</td>
-					</tr>
-					<tr>
-						<td><input type="radio" id="checkboxSuccess" value="option1"></td>
-						<td>UI73</td>
-						<td>UPPER</td>
-						<td>2</td>
-						<td>Una litera baja y una superior</td>
-					</tr>
-					<tr>
-						<td><input type="radio" id="checkboxSuccess" value="option1"></td>
-						<td>R64</td>
-						<td>RIVIERA</td>
-						<td>2</td>
-						<td>Una litera baja y una superior</td>
-					</tr>
-				</tbody>
-			</table>
-			</div>
+				<div class="row">
+					<div class="[ col-xs-12 col-md-5 ]">
+						
+<!-- tabla resultados cabinas -->
+						<table class="[ table ]">
+							<tbody>
+								<tr class="[ strong ][ bg-danger ]">
+									<td></td>
+									<td>Nº Cab</td>
+									<td>Cubierta</td>
+									<td>Cap</td>
+									<td>Desc</td>
+								</tr>
+								<tr>
+									<td><input type="radio" id="checkboxSuccess" value="option1"></td>
+									<td>UI73</td>
+									<td>UPPER</td>
+									<td>2</td>
+									<td>Una litera baja y una superior</td>
+								</tr>
+								<tr>
+									<td><input type="radio" id="checkboxSuccess" value="option1"></td>
+									<td>R64</td>
+									<td>RIVIERA</td>
+									<td>2</td>
+									<td>Una litera baja y una superior</td>
+								</tr>
+							</tbody>
+						</table><!-- tabla resultados cabinas -->
 
-		</section>
+						<!-- Ver resumen MOVIL-->
+						<div class="[ row ][ hidden-lg ][ margin-top margin bottom]">
+							<div class="[ panel-heading ][ bg-primary ][ text-center color-light ]" role="tab" id="headingTwo">
+								<p class="panel-title">
+									<a class="[ collapsed ]" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									  <strong>Resumen</strong>
+									</a>
+								</p>
+							</div>
+							<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+								<div class="panel-body">
+									<h4 class="[ color-primary ]">Barco:</h4>
+									<p>Carnival Imagination</p>
+									<h4 class="[ color-primary ]">Noches</h4>
+									<p>4 Noches </p>
+									<h4 class="[ color-primary ]">Puerto de Salida</h4>
+									<p>Los Angeles (Long Beach), C.A.</p>
+									<img class="[ img-responsive ][ margin-bottom ]" src="img/destinos/freeport.png">
+									<h4 class="[ color-primary ]">Itinerario</h4>
+									<p>Los Angeles (Long Beach), Ca | Isla Catalina, California | Ensenada, México | Divertido Dia En El Mar | Los Angeles (Long Beach), Ca</p>
+									<h4 class="[ color-primary ]">Fecha de salida:</h4>
+									<p>03 Ene 2016</p>
+									<h4 class="[ color-primary ]">Pasajeros:</h4>
+									<p>2</p>
+								</div>
+							</div>
+						</div>
 
-		<section class="[ text-center ]">
-			<a href="precios.html" type="submit" class="[ btn btn-primary ][ font-heading ][ margin-small ]">continuar</a>
+						<div class="[ text-center ]">
+							<a href="precios.html" type="submit" class="[ btn btn-primary ][ font-heading ][ margin-small ]">continuar</a>
+							
+						</div>
 
-			<img class="[ margin-top ]" src="img/IM_U.gif">
+					</div>
 
+					<!--cabina-->
+					<div class="[ col-xs-12 col-md-3 ][ text-center ]">
+						<img class="[ img-responsive ][ margin-top ]" src="img/IM_U.gif">
+					</div>
 
-		</section>
+					<!-- Resumen DESKTOP -->
+					<div class="[ col-lg-3 ][ hidden-xs hidden-sm hidden-md ]">
+
+						<div class="[ bg-primary ][ text-center color-light ]">
+							<p class="panel-title">
+								<a class="[ collapsed ]" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								  <strong>Resumen</strong>
+								</a>
+							</p>
+						</div>
+						<div>
+							<div class="panel-body">
+								<h4 class="[ color-primary ]">Barco:</h4>
+								<p>Carnival Imagination</p>
+								<h4 class="[ color-primary ]">Noches</h4>
+								<p>4 Noches </p>
+								<h4 class="[ color-primary ]">Puerto de Salida</h4>
+								<p>Los Angeles (Long Beach), C.A.</p>
+								<img class="[ img-responsive ][ margin-bottom ]" src="img/destinos/freeport.png">
+								<h4 class="[ color-primary ]">Itinerario</h4>
+								<p>Los Angeles (Long Beach), Ca | Isla Catalina, California | Ensenada, México | Divertido Dia En El Mar | Los Angeles (Long Beach), Ca</p>
+								<h4 class="[ color-primary ]">Fecha de salida:</h4>
+								<p>03 Ene 2016</p>
+								<h4 class="[ color-primary ]">Pasajeros:</h4>
+								<p>2</p>
+							</div>
+						</div>
+					</div> <!-- Resumen DESKTOP -->
+
+				</div><!--row-->
+
+			</div> <!--container-->
+
 
 		<footer class="[ border--top--primary margin-top margin-bottom ]">
 			<div class="[ container ]">
