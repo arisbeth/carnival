@@ -6850,8 +6850,18 @@ header {
 .bg-facebook {
   background-color: #3b5998;
 }
+.bg-facebook:hover,
+.bg-facebook:focus,
+.bg-facebook.focus {
+  background-color: #2d4373;
+}
 .bg-twitter {
   background-color: #55acee;
+}
+.bg-twitter:hover,
+.bg-twitter:focus,
+.bg-twitter.focus {
+  background-color: #1689e0;
 }
 .width-100 {
   width: 100%;

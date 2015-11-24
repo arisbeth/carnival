@@ -70,8 +70,20 @@
 .bg-dark{   background-color: @dark; }
 .bg-quaternary{   background-color: @quaternary; }
 
-.bg-facebook{   background-color: @facebook; }
-.bg-twitter{   background-color: @twitter; }
+.bg-facebook{   background-color: @facebook;
+  &:hover,
+  &:focus,
+  &.focus {
+    background-color: darken(@facebook, 10%);
+  }
+}
+.bg-twitter{   background-color: @twitter;
+   &:hover,
+  &:focus,
+  &.focus {
+    background-color: darken(@twitter, 15%);
+  }
+}
 
 
 // Box model
