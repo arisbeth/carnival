@@ -7029,6 +7029,9 @@ header {
 .no-margin {
   margin: 0 !important;
 }
+.margin-auto {
+  margin: auto;
+}
 .margin {
   margin: 20px;
 }
