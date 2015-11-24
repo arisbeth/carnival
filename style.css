@@ -3113,6 +3113,10 @@ select.contact {
   border-right: none;
   border-left: none;
 }
+input.border-placeholder {
+  border-radius: 5px;
+  border: 2px solid #07539c !important;
+}
 select.contact {
   border: none;
   color: #999999;
