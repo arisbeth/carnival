@@ -7143,11 +7143,7 @@ header {
 .map {
   width: 100%;
   height: 300px;
-}
-@media (min-width: 992px) {
-  .map {
-    height: 600px;
-  }
+  display: inline-block;
 }
 .bg-map {
   background-color: #E6E6E6;
