@@ -3125,7 +3125,7 @@ textarea {
   border-bottom: 1.5px solid #d9534f;
 }
 .form-control-small {
-  height: 15em;
+  height: 139%;
 }
 .btn {
   display: inline-block;
