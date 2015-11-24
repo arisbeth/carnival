@@ -134,9 +134,11 @@
 		<!--seccion video-->
 		<section class="[ text-center ][ margin-bottom--xlarge ]">
 			<div class="[ container ][ color-secondary ][ margin-small ]">
-				<h2 class=" [ text-uppercase font-heading ] ">Carnival visita: meet our new ship</h2>
+				<h2 class=" [ text-uppercase font-heading ] ">Carnival vista: meet our new ship</h2>
 			</div>
-			<iframe controls src="https://player.vimeo.com/video/36257948" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<div class="[ width-100 ][ video-wrapper ][ js-video-wrapper ]">
+				<iframe controls src="https://player.vimeo.com/video/36257948" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
 		</section>
 
 		<a class="[ btn btn-primary btn--action btn--action--left ][ visible-xs-block ]" href="#login">
@@ -233,6 +235,7 @@
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>->
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.0/js/bootstrap.min.js"></script>
+		<script src="js/plugins.js"></script>
 		<script src="js/functions.js"></script>
 		<script>
 			$( document ).ready(function() {
@@ -243,6 +246,7 @@
 				**/
 
 				imgToSvg();
+				 $('.js-video-wrapper').fitVids();
 
 
 				/**
