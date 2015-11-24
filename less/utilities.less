@@ -70,8 +70,20 @@
 .bg-dark{   background-color: @dark; }
 .bg-quaternary{   background-color: @quaternary; }
 
-.bg-facebook{   background-color: @facebook; }
-.bg-twitter{   background-color: @twitter; }
+.bg-facebook{   background-color: @facebook;
+  &:hover,
+  &:focus,
+  &.focus {
+    background-color: darken(@facebook, 10%);
+  }
+}
+.bg-twitter{   background-color: @twitter;
+   &:hover,
+  &:focus,
+  &.focus {
+    background-color: darken(@twitter, 15%);
+  }
+}
 
 
 // Box model
@@ -91,6 +103,7 @@
 
 //height
 .height-100{ height: 100%;}
+.height-200{ height: 200%;}
 
 
 // Padding
@@ -156,6 +169,7 @@
 
 //Margin
 .no-margin{ margin: 0 !important; }
+.margin-auto{ margin: auto; }
 
 .margin{ margin: @margin-base; }
 .margin--large{ margin: @margin-large; }
@@ -242,6 +256,7 @@
 // -------------------------
 .map{
   width: 100%; height: 300px;
+  display: inline-block;
 }
 
 .bg-map{
