@@ -16,10 +16,22 @@
 .img-crucero{ background-image: url('img/carnival-.jpg'); }
 .img-categorias{ background-image: url('img/categorias.png'); }
 
-.rectangle{ height: 150px; }
-.rectangle-small{ height: 80px; }
+.rectangle{
+	height: 150px;
+	@media (min-width: 992px){ height: 250px;}
 
-.square{ height: 300px; }
+}
+.rectangle-small{ height: 80px; }
+// .carta{
+// 	width: 330px ;
+// 	height: 255px ;
+// 	border: 1px solid red;
+// }
+
+.square{
+	height: 300px;
+	@media (min-width: 992px){ height: 520px;}
+}
 .img-size-xs{ width: 20% }
 
 .img-auto{ margin: auto; }
