@@ -33,7 +33,7 @@
 				</div>
 			</div>
 			<div class="[ margin-bottom ]"></div>
-			<div class="[ hidden-xs hidden-sm ][ col-md-12 ][ bg-primary ][ margin-bottom--large ] ">
+			<div class="[ hidden-xs hidden-sm ][ col-md-12 ][ bg-primary ]">
 				<div class="[ container ]">
 					<ul class="[ nav nav-justified ][ margin-auto ][ color-light ]">
 						<li><a href="cruceros.html">¿Por qué cruceros Carnival?</a></li>
@@ -50,9 +50,14 @@
 		<!--  img home / punchline-->
 		<section class="[ hero ][ bg-image ]" style="background-image: url('img/carnival.jpg');">
 			<div class="[ container ][ relative ]">
-				<div class="[ hero__text ][ text-light text-shadow text-center ] ">
-					<h1 class="[ text-uppercase ][ no-margin ]">LOREM IPSUM</h1>
-					<p class="[ font-size-large ]">Ipsum dolor sit amet,consectetur amet adipisicing.</p>
+				<div class="[ row ]">
+					<div class="[ col-sm-7 ]"></div>
+					<div class="[ col-sm-5 ]">
+						<div class="[ hero__text ][ text-light text-shadow text-center ] ">
+							<h1 class="[ text-uppercase ][ no-margin ]">LOREM IPSUM</h1>
+							<p class="[ font-size-large ]">Ipsum dolor sit amet,consectetur amet adipisicing.</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -63,7 +68,8 @@
 				<div class="[ padding--top-bottom--xxlarge ]">
 					<h2 class="[ text-center text-light font-heading ]">ENCUENTRA UN CRUCERO</h2>
 					<form class="[ row ]" role="form">
-						<fieldset class="[ col-xs-6 ][ padding--right--small ]">
+						<div class="[ col-sm-1 ]"></div>
+						<fieldset class="[ col-xs-6 col-sm-2 ][ padding--right--small ]">
 							<select class="[ form-control ][ border-primary margin-bottom--small ][ arrow ]">
 								<option>Destino</option>
 								<option>Destino</option>
@@ -71,7 +77,7 @@
 								<option>Destino</option>
 							</select>
 						</fieldset>
-						<fieldset class="[ col-xs-6 ][ padding--left--small ]">
+						<fieldset class="[ col-xs-6 col-sm-2 ][ padding--left--small ]">
 							<select class="[ form-control ][ border-primary margin-bottom--small ][ arrow ]" >
 								<option>Salida</option>
 								<option>Salida</option>
@@ -79,15 +85,16 @@
 								<option>Salida</option>
 							</select>
 						</fieldset>
-						<fieldset class="[ col-xs-12 ]">
+						<fieldset class="[ col-xs-12 col-sm-2 ]">
 							<select class="[ form-control ][ border-primary ][ margin-bottom--small ][ arrow ]">
-								<option>Fecha de Salida</option>
+								<option class="[ visible-sm ]">Fecha</option>
+								<option class="[ hidden-sm ]">Fecha de Salida</option>
 								<option>Fecha de Salida</option>
 								<option>Fecha de Salida</option>
 								<option>Fecha de Salida</option>
 							</select>
 						</fieldset>
-						<fieldset class="[ col-xs-12 ]">
+						<fieldset class="[ col-xs-12 col-sm-2 ]">
 							<select class="[ form-control ][ border-primary ][ margin-bottom ][ arrow ]">
 								<option>Pasajeros</option>
 								<option>Pasajeros</option>
@@ -95,16 +102,17 @@
 								<option>Pasajeros</option>
 							</select>
 						</fieldset>
-						<div class="[ text-center ][ col-xs-12 ]">
+						<div class="[ text-center ][ col-xs-12 col-sm-2  ]">
 							<button type="submit" class="[ btn btn-primary ]">Buscar</button>
 						</div>
 					</form>
 				</div>
 			</div>
 		</section>
+
 		<!--  banners -->
 		<section class="[ text-center ][ banners ][ margin-bottom--xlarge ]">
-			<div class="[ banners__container ]">
+			<div class="[  ][ banners__container ]">
 				<div class="[ bg-image rectangle ][ text-light text-shadow ][ relative ]" style="background-image: url('img/carnival.jpg');">
 					<div class="[ center-full ][ width-90 ]">
 						<h2 class=" [ text-uppercase font-heading ][ no-margin ]">Una noticia</h2>
@@ -134,7 +142,7 @@
 			<div class="[ container ][ color-secondary ][ margin-small ]">
 				<h2 class=" [ text-uppercase font-heading ] ">Carnival visita: meet our new ship</h2>
 			</div>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/ZTohAlcGqCI" frameborder="0" allowfullscreen></iframe>
+			<iframe class="[ embed-responsive-item ]" src="https://www.youtube.com/embed/ZTohAlcGqCI" frameborder="0" allowfullscreen></iframe>
 		</section>
 
 		<a class="[ btn btn-primary btn--action btn--action--left ][ visible-xs-block ]" href="#login">
