@@ -3129,6 +3129,7 @@ textarea {
 }
 .form-control-small {
   height: 139%;
+  padding-bottom: 0px;
 }
 .btn {
   display: inline-block;
@@ -4122,7 +4123,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-left: -1px;
 }
 .nav {
-  text-transform: uppercase;
   margin-top: 15px;
   margin-bottom: 0;
   padding-left: 0;
@@ -4143,7 +4143,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #eeeeee;
 }
 .nav > li.disabled > a {
-  color: #999999;
+  color: #ffffff;
 }
 .nav > li.disabled > a:hover,
 .nav > li.disabled > a:focus {
@@ -5403,11 +5403,21 @@ a.thumbnail.active {
 .rectangle {
   height: 150px;
 }
+@media (min-width: 992px) {
+  .rectangle {
+    height: 250px;
+  }
+}
 .rectangle-small {
   height: 80px;
 }
 .square {
   height: 300px;
+}
+@media (min-width: 992px) {
+  .square {
+    height: 520px;
+  }
 }
 .img-size-xs {
   width: 20%;
@@ -6970,6 +6980,9 @@ ul.horizontal-slide li[class*="col"]:first-child {
 .padding--bottom {
   padding-bottom: 12px;
 }
+.padding--bottom-0 {
+  padding-bottom: 0px;
+}
 .padding--bottom--small {
   padding-bottom: 6px;
 }
@@ -7193,6 +7206,12 @@ ul.horizontal-slide li[class*="col"]:first-child {
 }
 .color-primarylight {
   color: #76b9f9;
+}
+.color-light {
+  color: #ffffff;
+}
+.color-secondary {
+  color: secondary;
 }
 .map {
   width: 100%;
