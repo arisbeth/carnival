@@ -6822,6 +6822,7 @@ ul.horizontal-slide {
   width: 100%;
   white-space: nowrap;
   overflow-x: auto;
+  overflow-y: visible;
 }
 ul.horizontal-slide li[class*="col"] {
   display: inline-block;
