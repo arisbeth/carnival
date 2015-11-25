@@ -1325,6 +1325,11 @@ mark,
 .text-center {
   text-align: center;
 }
+@media (min-width: 768px) {
+  .text-center-responsive {
+    text-align: center;
+  }
+}
 .text-justify {
   text-align: justify;
 }
