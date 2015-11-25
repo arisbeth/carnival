@@ -5415,6 +5415,11 @@ a.thumbnail.active {
 .rectangle-small {
   height: 80px;
 }
+@media (min-width: 768px) {
+  .rectangle-small {
+    height: 250px;
+  }
+}
 .square {
   height: 300px;
 }
