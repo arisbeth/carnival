@@ -650,8 +650,21 @@ textarea{
   border-bottom: 1.5px solid @brand-danger;
 }
 
-.form-control-small{
+.form-control-small,
+.form-control-large{
   height: @input-height-small;
   padding-bottom: 0px;
 }
 
+.form-control-small{
+  width: 90%;
+  margin: auto;
+  @media (min-width: @screen-sm){
+    width: 45%;
+    margin-left: 3%;
+  }
+}
+
+.form-control-large{
+  width: 100%
+}
