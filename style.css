@@ -4211,6 +4211,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav-tabs.nav-justified {
   width: 100%;
+  font-family: 'Open Sans', sans-serif;
   border-bottom: 0;
 }
 .nav-tabs.nav-justified > li {
@@ -4277,6 +4278,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav-justified {
   width: 100%;
+  font-family: 'Open Sans', sans-serif;
 }
 .nav-justified > li {
   float: none;
