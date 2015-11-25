@@ -21,6 +21,7 @@
       position: relative;
       display: block;
       padding: @nav-link-padding;
+      color: @light;
       &:hover,
       &:focus {
         text-decoration: none;
@@ -30,7 +31,7 @@
 
     // Disabled state sets text to gray and nukes hover/tab effects
     &.disabled > a {
-      color: @light;
+      color: @nav-disabled-link-color;
 
       &:hover,
       &:focus {
