@@ -15,4 +15,20 @@
 	margin: (@margin-base*0.2) (@margin-base*0.4);
 	color: @light;
 	font-size: @font-size-h4; font-family: 'Open Sans', sans-serif;
+	@media (min-width: @screen-sm){
+		color: @primary;
+		text-decoration: underline;
+		margin: 0px;
+	}
+}
+
+.box-primary{
+	background-color: @primary;
+	color: @light;
+	text-align: center;
+	@media (min-width: @screen-sm){
+		background-color: @light;
+		color: @primary;
+		text-align: left;
+	}
 }
