@@ -3113,10 +3113,6 @@ select.contact {
   border-right: none;
   border-left: none;
 }
-input.border-placeholder {
-  border-radius: 5px;
-  border: 2px solid #07539c !important;
-}
 select.contact {
   border: none;
   color: #999999;
@@ -3129,7 +3125,6 @@ textarea {
 }
 .form-control-small {
   height: 139%;
-  padding-bottom: 0px;
 }
 .btn {
   display: inline-block;
@@ -3265,11 +3260,6 @@ fieldset[disabled] .btn-default.active {
   text-transform: uppercase;
   font-size: 220%;
   font-family: 'Tempo';
-}
-.bth-small {
-  padding: 10px 15px 2px 15px;
-  font-size: 160%;
-  letter-spacing: 1.2px;
 }
 .btn-secondary {
   background-color: #ff0026;
@@ -4123,6 +4113,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-left: -1px;
 }
 .nav {
+  text-transform: uppercase;
   margin-top: 15px;
   margin-bottom: 0;
   padding-left: 0;
@@ -4143,7 +4134,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #eeeeee;
 }
 .nav > li.disabled > a {
-  color: #ffffff;
+  color: #999999;
 }
 .nav > li.disabled > a:hover,
 .nav > li.disabled > a:focus {
@@ -5403,31 +5394,17 @@ a.thumbnail.active {
 .rectangle {
   height: 150px;
 }
-@media (min-width: 992px) {
-  .rectangle {
-    height: 250px;
-  }
-}
 .rectangle-small {
   height: 80px;
 }
 .square {
   height: 300px;
 }
-@media (min-width: 992px) {
-  .square {
-    height: 520px;
-  }
-}
 .img-size-xs {
   width: 20%;
 }
 .img-auto {
   margin: auto;
-}
-.img-icons {
-  margin-bottom: 5px;
-  width: 25px;
 }
 .icon {
   display: inline-block;
@@ -6764,27 +6741,6 @@ header {
     bottom: 20px;
   }
 }
-ul.horizontal-slide {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  white-space: nowrap;
-  overflow-x: auto;
-}
-ul.horizontal-slide li[class*="col"] {
-  display: inline-block;
-  float: none;
-}
-ul.horizontal-slide li[class*="col"]:first-child {
-  margin-left: 0;
-}
-.box-li {
-  display: inline-block;
-  float: none;
-  padding-right: 5px;
-  position: relative;
-  width: auto;
-}
 .clearfix:before,
 .clearfix:after,
 .dl-horizontal dd:before,
@@ -6979,9 +6935,6 @@ ul.horizontal-slide li[class*="col"]:first-child {
 }
 .padding--bottom {
   padding-bottom: 12px;
-}
-.padding--bottom-0 {
-  padding-bottom: 0px;
 }
 .padding--bottom--small {
   padding-bottom: 6px;
@@ -7203,15 +7156,6 @@ ul.horizontal-slide li[class*="col"]:first-child {
 }
 .danger {
   color: #d9534f;
-}
-.color-primarylight {
-  color: #76b9f9;
-}
-.color-light {
-  color: #ffffff;
-}
-.color-secondary {
-  color: secondary;
 }
 .map {
   width: 100%;

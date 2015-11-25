@@ -39,6 +39,35 @@
 
 			<h2 class=" [ text-uppercase text-center font-heading ] [ color-secondary ] ">Itinerario</h2>
 
+			<!-- Ver resumen MOVIL-->
+			<div class="[ row ][ hidden-md hidden-lg ][ margin-top margin ]">
+				<div class="[ panel-heading ][ bg-primary ][ text-center color-light ]" role="tab" id="headingTwo">
+					<p class="panel-title">
+						<a class="[ collapsed ]" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						  <strong>Resumen</strong>
+						</a>
+					</p>
+				</div>
+				
+				<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+					<div class="panel-body">
+						<h4 class="[ color-primary ]">Barco:</h4>
+						<p>Carnival Imagination</p>
+						<h4 class="[ color-primary ]">Noches</h4>
+						<p>4 Noches </p>
+						<h4 class="[ color-primary ]">Puerto de Salida</h4>
+						<p>Los Angeles (Long Beach), C.A.</p>
+						<img class="[ img-responsive ][ margin-bottom ]" src="img/destinos/freeport.png">
+						<h4 class="[ color-primary ]">Itinerario</h4>
+						<p>Los Angeles (Long Beach), Ca | Isla Catalina, California | Ensenada, México | Divertido Dia En El Mar | Los Angeles (Long Beach), Ca</p>
+						<h4 class="[ color-primary ]">Fecha de salida:</h4>
+						<p>03 Ene 2016</p>
+						<h4 class="[ color-primary ]">Pasajeros:</h4>
+						<p>2</p>
+					</div>
+				</div>
+			</div> <!-- /row -->
+
 			<div class="[ row ]">
 
 				<!-- mapa -->
@@ -103,7 +132,7 @@
 					</table>
 
 					<!--  select no- pasajeros -->
-					<div class="[ margin-bottom ][ width-50 ]">
+					<div class="[ margin-bottom ][ width-50 ][ center-block ]">
 						<select class="[ form-control form-medium ][ border-primary ][ arrow ][ no-padding ]">
 							<option> N° de pasajeros:</option>
 							<option>1</option>
@@ -120,8 +149,9 @@
 
 				</div>
 
+				<div class="[ hidden-xs col-md-1 ]"></div>
 				<!-- Resumen DESKTOP -->
-				<div class="[ col-md-3 col-lg-3 ][ hidden-xs hidden-sm hidden-md ]">
+				<div class="[ col-md-3 col-lg-3 ][ hidden-xs hidden-sm ]">
 
 						<div class="[ bg-primary ][ text-center color-light ]">
 							<p class="panel-title">
@@ -151,34 +181,6 @@
 				</div> <!-- Resumen DESKTOP -->
 
 			</div>	<!-- /row-->
-
-			<!-- Ver resumen MOVIL-->
-			<div class="[ row ][ hidden-lg ][ margin-top margin ]">
-				<div class="[ panel-heading ][ bg-primary ][ text-center color-light ]" role="tab" id="headingTwo">
-					<p class="panel-title">
-						<a class="[ collapsed ]" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-						  <strong>Resumen</strong>
-						</a>
-					</p>
-				</div>
-				<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-					<div class="panel-body">
-						<h4 class="[ color-primary ]">Barco:</h4>
-						<p>Carnival Imagination</p>
-						<h4 class="[ color-primary ]">Noches</h4>
-						<p>4 Noches </p>
-						<h4 class="[ color-primary ]">Puerto de Salida</h4>
-						<p>Los Angeles (Long Beach), C.A.</p>
-						<img class="[ img-responsive ][ margin-bottom ]" src="img/destinos/freeport.png">
-						<h4 class="[ color-primary ]">Itinerario</h4>
-						<p>Los Angeles (Long Beach), Ca | Isla Catalina, California | Ensenada, México | Divertido Dia En El Mar | Los Angeles (Long Beach), Ca</p>
-						<h4 class="[ color-primary ]">Fecha de salida:</h4>
-						<p>03 Ene 2016</p>
-						<h4 class="[ color-primary ]">Pasajeros:</h4>
-						<p>2</p>
-					</div>
-				</div>
-			</div> <!-- /row -->
 
 		</div>
 
