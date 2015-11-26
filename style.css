@@ -1285,7 +1285,12 @@ h6,
 p {
   margin: 0 0 0.5em 0;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.14em;
+  font-size: 140%;
+}
+@media (max-width: 480px) {
+  p {
+    font-size: 120%;
+  }
 }
 .lead {
   margin-bottom: 1em;
@@ -6194,7 +6199,7 @@ header a {
 }
 header a:hover,
 header a:focus {
-  color: #999999;
+  color: #ff0026;
 }
 .logo-carnival {
   width: 129px;
@@ -6341,7 +6346,7 @@ header a:focus {
 }
 .modal-body a:hover,
 .modal-body a:focus {
-  color: #999999;
+  color: #ff0026;
 }
 .modal-footer {
   padding: 15px;
