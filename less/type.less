@@ -97,9 +97,17 @@ small,
 .xlarge{
   font-size: 300%;
 }
+
 .medium{
   font-size: 110%;
+  @media (min-width: @screen-md){ font-size: 140%}
 }
+
+.normal{
+  font-size: 160%;
+  @media (max-width: @screen-xs){ font-size: 140%}
+}
+
 mark,
 .mark {
   background-color: @state-warning-bg;
@@ -126,9 +134,7 @@ mark,
 .color-secondary    { color: @secondary; }
 .color-tertiary     { color: @tertiary; }
 .color-light        { color: @light;}
-.text-muted {
-  color: @text-muted;
-}
+.text-muted { color: @text-muted; }
 
 .text-primary {
   .text-emphasis-variant(@brand-primary);
@@ -378,9 +384,9 @@ text-shadow: 2px 2px 1px @gray-darker;
 .line-height-small{ line-height: 6px;}
 
 h3 {
-  font-family: 'Open Sans', 
-  sans-serif; 
-  font-size: @font-size-h3; 
+  font-family: 'Open Sans',
+  sans-serif;
+  font-size: @font-size-h3;
   font-weight: 700;
 }
 
