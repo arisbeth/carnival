@@ -5430,7 +5430,7 @@ a.thumbnail.active {
 }
 @media (min-width: 768px) {
   .rectangle-small {
-    height: 250px;
+    height: 130px;
   }
 }
 .rectangle-md {
@@ -5438,7 +5438,7 @@ a.thumbnail.active {
 }
 @media (min-width: 768px) {
   .rectangle-md {
-    height: 350px;
+    height: 250px;
   }
 }
 .square {
@@ -5446,7 +5446,7 @@ a.thumbnail.active {
 }
 @media (min-width: 768px) {
   .square {
-    height: 420px;
+    height: 350px;
   }
 }
 .img-size-xs {
