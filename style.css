@@ -1318,6 +1318,19 @@ small,
 .xlarge {
   font-size: 300%;
 }
+@media (min-width: 768px) {
+  .xlarge {
+    font-size: 400%;
+  }
+}
+.xxlarge {
+  font-size: 350%;
+}
+@media (min-width: 768px) {
+  .xxlarge {
+    font-size: 450%;
+  }
+}
 .medium {
   font-size: 110%;
 }
@@ -3161,6 +3174,12 @@ textarea {
   padding-bottom: 0px;
   padding-left: 0px;
 }
+@media (min-width: 768px) {
+  .form-control-small,
+  .form-control-large {
+    font-size: 16px;
+  }
+}
 .form-control-small {
   width: 90%;
   margin: auto;
@@ -3169,6 +3188,7 @@ textarea {
   .form-control-small {
     width: 45%;
     margin-left: 3%;
+    font-size: 16px;
   }
 }
 .form-control-large {
@@ -6229,9 +6249,14 @@ header a:focus {
 }
 .hero {
   width: 100%;
-  height: 200px;
+  height: 250px;
   position: relative;
   overflow: hidden;
+}
+@media (min-width: 768px) {
+  .hero {
+    height: 350px;
+  }
 }
 .hero__text {
   width: 100%;
@@ -7190,6 +7215,10 @@ ul.horizontal-slide li[class*="col"]:first-child {
 .padding--left--xxlarge {
   padding-left: 48px;
 }
+.padding-left-right--small {
+  padding-left: 16px;
+  padding-right: 16px;
+}
 .no-border {
   border: none;
 }
@@ -7278,6 +7307,11 @@ ul.horizontal-slide li[class*="col"]:first-child {
 .margin-top-bottom--large {
   margin-top: 40px;
   margin-bottom: 40px;
+}
+@media (min-width: 768px) {
+  .margin-top--sm {
+    margin-top: 10px;
+  }
 }
 .circle {
   width: 50px;
