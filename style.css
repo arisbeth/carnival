@@ -6275,6 +6275,10 @@ header {
   position: relative;
   background-color: #ffffff;
 }
+.modal-content-video {
+  height: 100vh;
+  position: relative;
+}
 .modal-backdrop {
   position: fixed;
   top: 0;
@@ -6351,6 +6355,9 @@ header {
 }
 .closer {
   margin: 0px;
+}
+.border-video {
+  boder: solid 5px #ffffff;
 }
 .tooltip {
   position: absolute;
@@ -7169,6 +7176,13 @@ ul.horizontal-slide li[class*="col"]:first-child {
 }
 .margin-top--large {
   margin-top: 40px;
+}
+.margin-top--xlarge {
+  margin-top: 80px;
+}
+.margin-top-bottom--large {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .margin-sides {
   margin-left: 20px;
