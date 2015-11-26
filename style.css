@@ -1321,6 +1321,11 @@ small,
 .medium {
   font-size: 110%;
 }
+@media (min-width: 992px) {
+  .medium {
+    font-size: 140%;
+  }
+}
 mark,
 .mark {
   background-color: #fcf8e3;
@@ -6195,6 +6200,11 @@ header {
   font-family: 'Open Sans', sans-serif;
 }
 @media (min-width: 768px) {
+  header {
+    height: 95px;
+  }
+}
+@media (min-width: 992px) {
   header {
     height: 100px;
   }
