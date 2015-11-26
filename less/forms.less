@@ -638,7 +638,7 @@ input, select.contact{
 }
 
 //placeholder border
-.border-placeholder{ 
+.border-placeholder{
   border: 2px solid @primary !important;
   border-radius:5px;
 }
@@ -662,6 +662,7 @@ textarea{
   height: @input-height-small;
   padding-bottom: 0px;
   padding-left: 0px;
+  @media (min-width: @screen-sm){ font-size: 16px; }
 }
 
 .form-control-small{
@@ -670,6 +671,7 @@ textarea{
   @media (min-width: @screen-sm){
     width: 45%;
     margin-left: 3%;
+    font-size: 16px;
   }
 }
 
