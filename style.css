@@ -4211,7 +4211,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav-tabs.nav-justified {
   width: 100%;
-  font-family: 'Open Sans', sans-serif;
   border-bottom: 0;
 }
 .nav-tabs.nav-justified > li {
@@ -4278,7 +4277,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav-justified {
   width: 100%;
-  font-family: 'Open Sans', sans-serif;
 }
 .nav-justified > li {
   float: none;
@@ -6165,6 +6163,12 @@ button.close {
 }
 header {
   height: 44px;
+  font-family: 'Open Sans', sans-serif;
+}
+@media (min-width: 992px) {
+  header {
+    height: 98px;
+  }
 }
 .logo-carnival {
   width: 129px;
