@@ -5,7 +5,13 @@
 header{
 	height: 44px;
 	@media (min-width: @screen-sm){ height: 100px;}
-  font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+		& a {
+			color: @light;
+			&:hover,
+			&:focus { color: @gray-light; }
+			}
 }
+
 
 .logo-carnival{ width: 129px; }

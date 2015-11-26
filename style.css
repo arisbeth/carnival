@@ -6189,6 +6189,13 @@ header {
     height: 100px;
   }
 }
+header a {
+  color: #ffffff;
+}
+header a:hover,
+header a:focus {
+  color: #999999;
+}
 .logo-carnival {
   width: 129px;
 }
@@ -6331,6 +6338,13 @@ header {
   min-height: 100%;
   position: relative;
   padding: 15px;
+}
+.modal-body a {
+  color: #ffffff;
+}
+.modal-body a:hover,
+.modal-body a:focus {
+  color: #999999;
 }
 .modal-footer {
   padding: 15px;

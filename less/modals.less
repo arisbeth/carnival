@@ -50,15 +50,15 @@
   margin:0px;
 }
 // Actual modal
-.modal-content {  
+.modal-content {
   height: 100vh;
   position: relative;
   background-color: @modal-content-bg;
 }
 
-.modal-content-video {  
+.modal-content-video {
   height: 100vh;
-  position: relative; 
+  position: relative;
 }
 
 // Modal background
@@ -99,6 +99,11 @@
   min-height: 100%;
   position: relative;
   padding: @modal-inner-padding;
+    & a {
+      color: @light;
+      &:hover,
+      &:focus { color: @gray-light; }
+      }
 }
 
 // Footer (for actions)
