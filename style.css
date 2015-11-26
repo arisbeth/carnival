@@ -6184,16 +6184,13 @@ header {
   height: 44px;
   font-family: 'Open Sans', sans-serif;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   header {
     height: 100px;
   }
 }
 .logo-carnival {
   width: 129px;
-}
-header + div h2 {
-  margin-bottom: 20px;
 }
 .hero {
   width: 100%;
