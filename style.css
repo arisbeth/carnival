@@ -6163,6 +6163,12 @@ button.close {
 }
 header {
   height: 44px;
+  font-family: 'Open Sans', sans-serif;
+}
+@media (min-width: 992px) {
+  header {
+    height: 98px;
+  }
 }
 .logo-carnival {
   width: 129px;
