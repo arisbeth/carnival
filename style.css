@@ -5446,7 +5446,7 @@ a.thumbnail.active {
 }
 @media (min-width: 768px) {
   .square {
-    height: 350px;
+    height: 420px;
   }
 }
 .img-size-xs {
@@ -6167,11 +6167,14 @@ header {
 }
 @media (min-width: 992px) {
   header {
-    height: 98px;
+    height: 100px;
   }
 }
 .logo-carnival {
   width: 129px;
+}
+header + div h2 {
+  margin-bottom: 20px;
 }
 .hero {
   width: 100%;
