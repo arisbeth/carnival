@@ -1312,7 +1312,7 @@ small,
 }
 @media (min-width: 768px) {
   .large {
-    font-size: 250%;
+    font-size: 240%;
   }
 }
 .xlarge {
@@ -6332,6 +6332,7 @@ header a:focus {
 .modal-content-video {
   height: 100vh;
   position: relative;
+  background: none;
 }
 .modal-backdrop {
   position: fixed;
@@ -6414,8 +6415,16 @@ header a:focus {
 .closer {
   margin: 0px;
 }
-.border-video {
-  boder: solid 5px #ffffff;
+.btn-close-video {
+  padding: 0 1.2%;
+  border: solid 4px #ffffff;
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.45);
+  background-color: #ff0026;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 220%;
 }
 .tooltip {
   position: absolute;
