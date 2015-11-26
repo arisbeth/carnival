@@ -5452,6 +5452,14 @@ a.thumbnail.active {
 .img-size-xs {
   width: 20%;
 }
+.img-size-small {
+  width: 30%;
+}
+@media (min-width: 768px) {
+  .img-size-small {
+    width: 20% ;
+  }
+}
 .img-auto {
   margin: auto;
 }
