@@ -34,6 +34,8 @@ label {
   max-width: 100%; // Force IE8 to wrap long content (see https://github.com/twbs/bootstrap/issues/13141)
   margin-bottom: 5px;
   font-weight: bold;
+  font-family: 'Open Sans', sans-serif ;
+  font-size: @font-size-base;
 }
 
 
@@ -633,6 +635,12 @@ input, select.contact{
   border-top:none;
   border-right: none;
   border-left: none;
+}
+
+//placeholder border
+.border-placeholder{ 
+  border: 2px solid @primary !important;
+  border-radius:5px;
 }
 
 //select

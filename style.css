@@ -2606,6 +2606,8 @@ label {
   max-width: 100%;
   margin-bottom: 5px;
   font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.14em;
 }
 input[type="search"] {
   -webkit-box-sizing: border-box;
@@ -3115,6 +3117,10 @@ select.contact {
   border-top: none;
   border-right: none;
   border-left: none;
+}
+.border-placeholder {
+  border: 2px solid #07539c !important;
+  border-radius: 5px;
 }
 select.contact {
   border: none;
