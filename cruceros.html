@@ -47,15 +47,13 @@
 			</div>
 		</header>
 
-		<!--  video  <iframe width="854" height="480" src="https://www.youtube.com/embed/zU6iaYr0ahQ" frameborder="0" allowfullscreen></iframe>-->
-
 		<h2 class=" [ text-uppercase text-center ] [ color-secondary ] ">¿Por qué Cruceros Carnival?</h2>
 		
 		<!-- video · movil -->
 		<section class="[ hidden-lg ]">
 			<div class="[ bg-image rectangle-md ][ text-light text-shadow ][ margin-bottom ][ relative ]" style="background-image: url('img/hero-video.jpg');">
 				<h2 class=" [ text-uppercase ][ center-full ]">Momentos memorables
-					<a href=""><img class="[ center-block ][ width-50 ]" src="img/icons/play.png"></a>
+					<a href="#video-momentos" data-toggle="modal"><img class="[ center-block ][ width-50 ]" src="img/icons/play.png"></a>
 				</h2>
 			</div>
 		</section>
@@ -63,14 +61,14 @@
 		<div class="[ container ]">
 
 		<!-- video · desktop -->
-			<section class="[ hidden-xs hidden-sm ]">
+			<section class="[ hidden-xs hidden-sm hidden-md ]">
 
 				<div class="[ row ]">
 					<div class="[ col-md-3 ]"></div>
 					<div class="[ col-md-6 ]">
 						<div class="[ bg-image rectangle-md ][ text-light text-shadow ][ margin-bottom ][ relative ]" style="background-image: url('img/hero-video.jpg');">
 							<h2 class=" [ text-uppercase ][ center-full ]">Momentos memorables
-								<a href=""><img class="[ center-block ][ width-50 ]" src="img/icons/play.png"></a>
+								<a href="#video-momentos" data-toggle="modal"><img class="[ center-block ][ width-50 ]" src="img/icons/play.png"></a>
 							</h2>
 						</div>
 					</div>
@@ -381,6 +379,7 @@
 					</section>
 
 				</div>
+
 				<section class="[ text-center ][ padding-top-bottom-small ]">
 					<p>Todos los derehos reservados 2006-2015 <br>Carnival Corporation</p>
 				</section>
@@ -388,7 +387,21 @@
 
 		</footer>
 
-	<!-- Modal -->
+		<!-- Modal Video -->
+		<div id="video-momentos" class="[ modal fade ]" role="dialog">
+			<div class="[ modal-dialog ]">
+				<div class="[ modal-content-video ][ text-center ]">
+					<div class="[ container ]">
+						<button type="button" class="[ close ][ btn btn-primary ]" data-dismiss="modal">&times;</button>
+						<div class="[ center-full ][ border-video ]">
+							<iframe width="854" height="480" src="https://www.youtube.com/embed/zU6iaYr0ahQ" frameborder="0" allowfullscreen></iframe>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<!-- Modal menu -->
 		<div id="myModal" class="[ modal fade ]" role="dialog">
 			<div class="[ modal-dialog ]">
 				<div class="[ modal-content ][ color-light ][ text-center ]">
