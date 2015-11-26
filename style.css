@@ -6339,9 +6339,6 @@ header a:focus {
   position: relative;
   padding: 15px;
 }
-.modal-body a {
-  color: #ffffff;
-}
 .modal-body a:hover,
 .modal-body a:focus {
   color: #999999;
