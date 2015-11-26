@@ -3145,6 +3145,11 @@ textarea {
 .form-control-large {
   width: 100%;
 }
+@media (min-width: 768px) {
+  .select--short {
+    padding: 5px;
+  }
+}
 .btn {
   display: inline-block;
   min-height: 40px;
