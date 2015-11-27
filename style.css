@@ -6242,7 +6242,7 @@ header a {
 }
 header a:hover,
 header a:focus {
-  color: #ff0026;
+  color: #999999;
 }
 .logo-carnival {
   width: 129px;
