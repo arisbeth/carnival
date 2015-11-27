@@ -150,6 +150,11 @@
 .padding--left--xlarge{ padding-left: (@padding-base-vertical*6); }
 .padding--left--xxlarge{ padding-left: (@padding-base-vertical*8); }
 
+.padding-left-right--small{
+      padding-left: @padding-large-horizontal;
+      padding-right: @padding-large-horizontal;
+    }
+
 
 
 // Border
@@ -185,6 +190,8 @@
 .margin-top{ margin-top: @margin-base; }
 .margin-top--small{ margin-top: (@margin-base/2); }
 .margin-top--large{ margin-top: (@margin-base*2); }
+.margin-top--xlarge{ margin-top: (@margin-base*4); }
+.margin-top-bottom--large{ margin-top: (@margin-base*2); margin-bottom: (@margin-base*2); }
 
 .margin-sides{ margin-left: @margin-base; margin-right: @margin-base; }
 .margin-sides--xsmall{ margin-left: (@margin-base/4); margin-right: (@margin-base/4); }
@@ -195,6 +202,9 @@
 .margin-top-bottom--small{ margin-top: (@margin-base/2); margin-bottom: (@margin-base/2); }
 .margin-top-bottom--large{ margin-top: (@margin-base*2); margin-bottom: (@margin-base*2); }
 
+.margin-top--sm{
+  @media (min-width: @screen-sm){ margin-top: 10px; }
+   }
 
 // Geometric forms
 .circle{
@@ -240,7 +250,7 @@
 
 // Displays
 .block{ display: block; }
-.diplay-inline{ display: inline; }
+.inline{ display: inline; }
 .inline-block{ display: inline-block; }
 
 //alingnemt

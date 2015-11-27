@@ -66,7 +66,8 @@ h6, .h6 { font-size: @font-size-h6; }
 p {
   margin: 0 0 (@line-height-computed / 2) 0;
   font-family: 'Open Sans', sans-serif ;
-  font-size: @font-size-base;
+  font-size: 140%;
+  @media (max-width: @screen-xs){font-size: 120%;}
 }
 
 .lead {
@@ -91,13 +92,27 @@ small,
 }
 .large{
   font-size: 150%;
+    @media (min-width: @screen-sm){ font-size: 240%}
 }
 .xlarge{
   font-size: 300%;
+   @media (min-width: @screen-sm){ font-size: 400%}
 }
+.xxlarge{
+  font-size: 350%;
+   @media (min-width: @screen-sm){ font-size: 450%}
+}
+
 .medium{
   font-size: 110%;
+  @media (min-width: @screen-md){ font-size: 140%}
 }
+
+.normal{
+  font-size: 160%;
+  @media (max-width: @screen-xs){ font-size: 140%}
+}
+
 mark,
 .mark {
   background-color: @state-warning-bg;
@@ -108,6 +123,9 @@ mark,
 .text-left           { text-align: left; }
 .text-right          { text-align: right; }
 .text-center         { text-align: center; }
+.text-center-responsive{
+    @media (min-width: @screen-sm){ text-align: center;}
+}
 .text-justify        { text-align: justify; }
 .text-nowrap         { white-space: nowrap; }
 
@@ -121,9 +139,7 @@ mark,
 .color-secondary    { color: @secondary; }
 .color-tertiary     { color: @tertiary; }
 .color-light        { color: @light;}
-.text-muted {
-  color: @text-muted;
-}
+.text-muted { color: @text-muted; }
 
 .text-primary {
   .text-emphasis-variant(@brand-primary);
@@ -373,7 +389,10 @@ text-shadow: 2px 2px 1px @gray-darker;
 .line-height-small{ line-height: 6px;}
 
 h3 {
-  font-family: 'Open Sans', sans-serif; font-size: @font-size-h3; font-weight: 700;
+  font-family: 'Open Sans',
+  sans-serif;
+  font-size: @font-size-h3;
+  font-weight: 700;
 }
 
 h4{
@@ -394,3 +413,13 @@ footer p{
 }
 
 .img-center{ vertical-align: middle;}
+
+div.user-content{
+  & a{
+    color: @secondary;
+    border-bottom: 1px solid @secondary;
+  }
+  & p{
+    @media (min-width: @screen-sm){ margin: 0 25%;}
+  }
+}

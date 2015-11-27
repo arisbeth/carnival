@@ -9,36 +9,47 @@
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<header class="[ bg-light ][ padding--top-bottom--small ][ margin-bottom ]">
+		<header class="[ bg-light ][ padding--top-bottom--small ][ margin-bottom--md ]">
 			<div class="[ container ]">
-				<div class="[ col-xs-6 col-lg-3 ][ no-padding ]">
-					<a href="index.html" class="[ show ]">
-						<img class="[ logo-carnival ][ padding-top-sm ]" src="img/carnival-logo.png">
-					</a>
-				</div>
-				<div class="[ hidden-lg ][ col-xs-6 ][ text-right ][ no-padding ]">
-					<a data-toggle="modal" data-target="#myModal">
-						<img src="icons/navigation.svg" class="[ svg ][ icon icon--min icon--stroke ][ color-secondary ]" alt="">
-					</a>
+				<div class="[ row ][ margin-bottom ]">
+					<div class="[ col-xs-6 col-md-3 ][ no-padding ]">
+						<a href="index.html" class="[ show ]">
+							<img class="[ logo-carnival ][ padding-top-sm ]" src="img/carnival-logo.png">
+						</a>
+					</div>
+					<div class="[ hidden-xs  ][ col-md-9 ]">
+						<div class="[ pull-right ][ medium color-secondary ][ margin-top--small ]">
+							<img class="[ svg ][ icon icon--iconed--large icon--stroke icon--thickness-1 ]" src="icons/promotions.svg">
+							<a class=" [ color-secondary ] "href="promociones.html">Promociones</a>
+							<img class="[ svg ][ icon icon--iconed--large icon--stroke icon--thickness-1 ]" src="icons/phone.svg">
+							<a class=" [ color-secondary ] "href="tel:+525552555555">5255 - 5555</a>
+						</div>
+					</div>
+					<div class="[ hidden-sm hidden-md hidden-lg ][ col-xs-6 ][ text-right ][ no-padding ]">
+						<a data-toggle="modal" data-target="#myModal">
+							<img src="icons/navigation.svg" class="[ svg ][ icon icon--min icon--stroke ][ color-secondary ]" alt="">
+						</a>
+					</div>
 				</div>
 			</div>
-			<div class="[ visible-lg ][ col-lg-12 ][ bg-primary ] ">
-				<ul class="[ nav nav-pills ] [ margin-auto ]">
-					<li><a href="cruceros.html">¿Por qué cruceros Carnival?</a></li>
-					<li><a href="destinos.html">Destinos</a></li>
-					<li><a href="actividades.html">Actividades</a></li>
-					<li><a href="antes-viajar.html">Antes de Viajar</a></li>
-					<li><a href="barcos.html">Barcos</a></li>
-					<li><a href="preguntas-frecuentes.html">Peguntas frecuentes</a></li>
-				</ul>
+			<div class="[ hidden-xs ][ bg-primary ]">
+				<div class="[ container ][ text-center ][ padding--top-bottom ][ medium ]">
+					<a class="[ inline-block ][ color-light ][ margin-right ]" href="cruceros.html">¿Por qué cruceros Carnival?</a>
+					<a class="[ inline-block ][ color-light ][ margin-sides ]" href="destinos.html">Destinos</a>
+					<a class="[ inline-block ][ color-light ][ margin-sides ]" href="actividades.html">Actividades</a>
+					<a class="[ inline-block ][ color-light ][ margin-sides ]" href="antes-viajar.html">Antes de Viajar</a>
+					<a class="[ inline-block ][ color-light ][ margin-sides ]" href="barcos.html">Barcos</a>
+					<a class="[ inline-block ][ color-light ][ margin-left ]" href="preguntas-frecuentes.html">Peguntas frecuentes</a>
+				</div>
 			</div>
 		</header>
-		<section class="[ container ]">
-			<h2 class=" [ text-uppercase text-center font-heading ] [ color-secondary ] ">Actividades</h2>
+
+		<div class="[ container ]">
+			<h2 class=" [ margin-top ][ text-uppercase text-center font-heading ] [ color-secondary ] ">Actividades</h2>
 			<!-- scroll horizontal -->
 			<div class="[ row ][ margin-bottom ]">
 				<div class="[ col-md-12 ]">
-					<ul class="[ horizontal-slide ][ text-center ]">
+					<ul id="scroll" class="[ horizontal-slide ][ text-center ]">
 						<li class="[ box-li ]">
 							<a href="#" class="[ color-primarylight ]">
 								<img class="img-icons" src="img/icons/todas.png"/>
@@ -95,101 +106,58 @@
 						</li>
 					</ul>
 				</div>
-			</div>
+			</div> <!-- row -->
+
 			<div class="[ row ][ color-primary ]">
-				<div class="[ col-xs-6 ][ margin-bottom--small ]">
-					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/folletos.jpg">
+				<div class="[ col-xs-6 col-md-3 ][ margin-bottom--small ]">
+					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/pool.jpg">
+					<p>Albercas</p>
+					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/pool.jpg">
+					<p>Albercas</p>
+					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/pool.jpg">
+					<p>Albercas</p>
+					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/pool.jpg">
 					<p>Albercas</p>
 				</div>
-				<div class="[ col-xs-6 ][ margin-bottom--small ]">
-					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/folletos.jpg">
+				<div class="[ col-xs-6 col-md-3 ][ margin-bottom--small ]">
+					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/bonsai.jpg">
+					<p>Bonsai sushi</p>
+					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/bonsai.jpg">
+					<p>Bonsai sushi</p>
+					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/bonsai.jpg">
+					<p>Bonsai sushi</p>
+					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/bonsai.jpg">
 					<p>Bonsai sushi</p>
 				</div>
-			</div>
-			<div class="[ row ][ color-primary ]">
-				<div class="[ col-xs-6 ][ margin-bottom--small ]">
-					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/folletos.jpg">
+				<div class="[ col-xs-6 col-md-3 ][ margin-bottom--small ]">
+					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/pool.jpg">
+					<p>Albercas</p>
+					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/pool.jpg">
+					<p>Albercas</p>
+					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/pool.jpg">
+					<p>Albercas</p>
+					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/pool.jpg">
 					<p>Albercas</p>
 				</div>
-				<div class="[ col-xs-6 ][ margin-bottom--small ]">
-					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/folletos.jpg">
+				<div class="[ col-xs-6 col-md-3 ][ margin-bottom--small ]">
+					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/bonsai.jpg">
+					<p>Bonsai sushi</p>
+					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/bonsai.jpg">
+					<p>Bonsai sushi</p>
+					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/bonsai.jpg">
+					<p>Bonsai sushi</p>
+					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/bonsai.jpg">
 					<p>Bonsai sushi</p>
 				</div>
-			</div>
-			<div class="[ row ][ color-primary ]">
-				<div class="[ col-xs-6 ][ margin-bottom--small ]">
-					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/folletos.jpg">
-					<p>Albercas</p>
-				</div>
-				<div class="[ col-xs-6 ][ margin-bottom--small ]">
-					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/folletos.jpg">
-					<p>Bonsai sushi</p>
-				</div>
-			</div>
-			<div class="[ row ][ color-primary ]">
-				<div class="[ col-xs-6 ][ margin-bottom--small ]">
-					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/folletos.jpg">
-					<p>Albercas</p>
-				</div>
-				<div class="[ col-xs-6 ][ margin-bottom--small ]">
-					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/folletos.jpg">
-					<p>Bonsai sushi</p>
-				</div>
-			</div>
-			<div class="[ row ][ color-primary ]">
-				<div class="[ col-xs-6 ][ margin-bottom--small ]">
-					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/folletos.jpg">
-					<p>Albercas</p>
-				</div>
-				<div class="[ col-xs-6 ][ margin-bottom--small ]">
-					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/folletos.jpg">
-					<p>Bonsai sushi</p>
-				</div>
-			</div>
-			<div class="[ row ][ color-primary ]">
-				<div class="[ col-xs-6 ][ margin-bottom--small ]">
-					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/folletos.jpg">
-					<p>Albercas</p>
-				</div>
-				<div class="[ col-xs-6 ][ margin-bottom--small ]">
-					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/folletos.jpg">
-					<p>Bonsai sushi</p>
-				</div>
-			</div>
-			<div class="[ row ][ color-primary ]">
-				<div class="[ col-xs-6 ][ margin-bottom--small ]">
-					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/folletos.jpg">
-					<p>Albercas</p>
-				</div>
-				<div class="[ col-xs-6 ][ margin-bottom--small ]">
-					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/folletos.jpg">
-					<p>Bonsai sushi</p>
-				</div>
-			</div>
-			<div class="[ row ][ color-primary ]">
-				<div class="[ col-xs-6 ][ margin-bottom--small ]">
-					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/folletos.jpg">
-					<p>Albercas</p>
-				</div>
-				<div class="[ col-xs-6 ][ margin-bottom--small ]">
-					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/folletos.jpg">
-					<p>Bonsai sushi</p>
-				</div>
-			</div>
-			<div class="[ row ][ color-primary ][ margin-medium ]">
-				<div class="[ col-xs-6 ][ margin-bottom--small ]">
-					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/folletos.jpg">
-					<p>Albercas</p>
-				</div>
-				<div class="[ col-xs-6 ][ margin-bottom--large ]">
-					<img class="[ img-responsive ][ margin-bottom--small ]" src="img/folletos.jpg">
-					<p>Bonsai sushi</p>
-				</div>
-			</div>
+
+			</div> <!-- row -->
+
+			<!-- row -->
 			<div class="[ text-center ][ margin-bottom ]">
-					<button type="submit" class="[ btn btn-primary ]">VER MÁS</button>
-				</div>
-		</section>
+				<button type="submit" class="[ btn btn-primary ]">VER MÁS</button>
+			</div>
+
+		</div>
 
 		<a class="[ btn btn-primary btn--action btn--action--left ][ visible-xs-block ]" href="#login">
 			<img class="[ svg ][ icon icon--iconed--large icon--stroke icon--thickness-1 ][ color-light ][ no-margin ]" src="icons/phone.svg">
@@ -231,20 +199,25 @@
 							</button>
 						</div>
 					</section>
+					<div class="[ visible-sm ][ clearfix ]"></div>
 
-					<section class="[ site-links ][ bg-primary ][ text-center text-light ][ padding--top-bottom--large ][ col-xs-12 col-sm-6 col-md-3 ]">
-						<h3 class="[ text-uppercase ][ color-light ][ margin-bottom ]"> Links </h3>
-						<a class="[ site-links__link ]" href="registro.html">Registro de agencias</a>
-						<a class="[ site-links__link ]" href="folletos.html">Folletos</a>
-						<a class="[ site-links__link ]" href="directorio.html">Directorio</a>
-						<a class="[ site-links__link ]" href="politicas.html">Políticas</a>
-						<a class="[ site-links__link ]" href="contacto.html">Contacto</a>
+					<section class="[ box-primary ][ padding--top-bottom--large ][ col-xs-12 col-sm-6 col-md-3 ]">
+						<div class="[ row ]">
+							<h3 class="[ col-xs-12 ][ text-uppercase ][ margin-bottom ]"> Links </h3>
+							<a class="[ col-sm-6 col-md-12 ][ site-links__link ]" href="registro.html">Registro de agencias</a>
+							<a class="[ col-sm-6 col-md-12 ][ site-links__link ]" href="folletos.html">Folletos</a>
+							<a class="[ col-sm-6 col-md-12 ][ site-links__link ]" href="directorio.html">Directorio</a>
+							<a class="[ col-sm-6 col-md-12 ][ site-links__link ]" href="politicas.html">Políticas</a>
+							<a class="[ col-sm-6 col-md-12 ][ site-links__link ]" href="contacto.html">Contacto</a>
+						</div>
 					</section>
 
-					<section class="[ site-links ][ bg-primary ][ text-center text-light ][ padding--top-bottom--large ][ col-xs-12 col-sm-6 col-md-3 ]">
-						<h3 class="[ text-uppercase ][ color-light ][ margin-bottom ]"> Visas </h3>
-						<a class="[ site-links__link ]" href="">Canada</a>
-						<a class="[ site-links__link ]" href="">Estados Unidos</a>
+					<section class="[ box-primary ][ padding--top-bottom--large ][ col-xs-12 col-sm-6 col-md-3 ]">
+						<div class="[ row ]">
+							<h3 class="[ col-xs-12 ][ text-uppercase ][ margin-bottom ]"> Visas </h3>
+							<a class="[ col-sm-6 col-md-12 ][ site-links__link ]" href="">Canada</a>
+							<a class="[ col-sm-6 col-md-12 ][ site-links__link ]" href="">Estados Unidos</a>
+						</div>
 					</section>
 
 				</div>

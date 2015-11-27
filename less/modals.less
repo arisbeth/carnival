@@ -50,10 +50,16 @@
   margin:0px;
 }
 // Actual modal
-.modal-content {  
+.modal-content {
   height: 100vh;
   position: relative;
   background-color: @modal-content-bg;
+}
+
+.modal-content-video {
+  height: 70vh;
+  position: relative;
+  background: @modal-content-bg;
 }
 
 // Modal background
@@ -94,6 +100,10 @@
   min-height: 100%;
   position: relative;
   padding: @modal-inner-padding;
+    & a {
+      &:hover,
+      &:focus { color: @secondary; }
+      }
 }
 
 // Footer (for actions)
@@ -147,4 +157,15 @@
 }
 .closer{
   margin:0px;
+}
+.btn-close-video{
+  padding: 0px 10px;
+  border:solid 4px @light ;
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.45);
+  background-color: #ff0026;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 220%;
 }

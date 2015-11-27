@@ -9,52 +9,57 @@
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<header class="[ bg-light ][ padding--top-bottom--small ]">
+		<header class="[ bg-light ][ padding--top-bottom--small ][ margin-bottom--md ]">
 			<div class="[ container ]">
-				<div class="[ col-xs-6 col-lg-3 ][ no-padding ]">
-					<a href="index.html" class="[ show ]">
-						<img class="[ logo-carnival ][ padding-top-sm ]" src="img/carnival-logo.png">
-					</a>
+				<div class="[ row ][ margin-bottom ]">
+					<div class="[ col-xs-6 col-md-3 ][ no-padding ]">
+						<a href="index.html" class="[ show ]">
+							<img class="[ logo-carnival ][ padding-top-sm ]" src="img/carnival-logo.png">
+						</a>
+					</div>
+					<div class="[ hidden-xs  ][ col-md-9 ]">
+						<div class="[ pull-right ][ medium color-secondary ][ margin-top--small ]">
+							<img class="[ svg ][ icon icon--iconed--large icon--stroke icon--thickness-1 ]" src="icons/promotions.svg">
+							<a class=" [ color-secondary ] "href="promociones.html">Promociones</a>
+							<img class="[ svg ][ icon icon--iconed--large icon--stroke icon--thickness-1 ]" src="icons/phone.svg">
+							<a class=" [ color-secondary ] "href="tel:+525552555555">5255 - 5555</a>
+						</div>
+					</div>
+					<div class="[ hidden-sm hidden-md hidden-lg ][ col-xs-6 ][ text-right ][ no-padding ]">
+						<a data-toggle="modal" data-target="#myModal">
+							<img src="icons/navigation.svg" class="[ svg ][ icon icon--min icon--stroke ][ color-secondary ]" alt="">
+						</a>
+					</div>
 				</div>
-				<div class="[ hidden-lg ][ col-xs-6 ][ text-right ][ no-padding ]">
-					<a data-toggle="modal" data-target="#myModal">
-						<img src="icons/navigation.svg" class="[ svg ][ icon icon--min icon--stroke ][ color-secondary ]" alt="">
-					</a>
-				</div>
-
-				<!--
-				<div class="[ hidden-lg ][ col-xs-2 ][ pull-right ]">
-					<a class="[ dropdown-toggle ]" data-toggle="dropdown">
-						<span class="[ glyphicon glyphicon-align-justify ][ color-secondary ]"></span>
-					</a>
-					<ul class="[ bg-primary ][ text-center ][ dropdown-menu ]" role="menu">
-						<li><a href="#">¿Por qué cruceros Carnival?</a></li>
-						<li><a href="destinos.html">Destinos</a></li>
-						<li><a href="#">Actividades</a></li>
-						<li><a href="#">Antes de Viajar</a></li>
-						<li><a href="#">Barcos</a></li>
-						<li><a href="#">Peguntas frecuentes</a></li>
-					</ul>
-				</div>	-->
 			</div>
-			<div class="[ visible-lg ][ col-lg-12 ][ bg-primary ] ">
-				<ul class="[ nav nav-pills ] [ margin-auto ]">
-					<li><a href="cruceros.html">¿Por qué cruceros Carnival?</a></li>
-					<li><a href="destinos.html">Destinos</a></li>
-					<li><a href="actividades.html">Actividades</a></li>
-					<li><a href="antes-viajar.html">Antes de Viajar</a></li>
-					<li><a href="barcos.html">Barcos</a></li>
-					<li><a href="preguntas-frecuentes.html">Peguntas frecuentes</a></li>
-				</ul>
+			<div class="[ hidden-xs ][ bg-primary ]">
+				<div class="[ container ][ text-center ][ padding--top-bottom ][ medium ]">
+					<a class="[ inline-block ][ color-light ][ margin-right ]" href="cruceros.html">¿Por qué cruceros Carnival?</a>
+					<a class="[ inline-block ][ color-light ][ margin-sides ]" href="destinos.html">Destinos</a>
+					<a class="[ inline-block ][ color-light ][ margin-sides ]" href="actividades.html">Actividades</a>
+					<a class="[ inline-block ][ color-light ][ margin-sides ]" href="antes-viajar.html">Antes de Viajar</a>
+					<a class="[ inline-block ][ color-light ][ margin-sides ]" href="barcos.html">Barcos</a>
+					<a class="[ inline-block ][ color-light ][ margin-left ]" href="preguntas-frecuentes.html">Peguntas frecuentes</a>
+				</div>
 			</div>
 		</header>
 
 		<!--  img home / punchline-->
+
 		<section class="[ hero ][ bg-image ]" style="background-image: url('img/carnival.jpg');">
 			<div class="[ container ][ relative ]">
-				<div class="[ hero__text ][ text-light text-shadow text-center ] ">
+				<div class="[ visible-xs ][ hero__text ][ text-light text-shadow text-center ] ">
 					<h1 class="[ text-uppercase ][ no-margin ]">LOREM IPSUM</h1>
 					<p class="[ font-size-large ]">Ipsum dolor sit amet,consectetur amet adipisicing.</p>
+				</div>
+				<div class="[ row ][ hidden-xs ]">
+					<div class="[ col-sm-7 ]"></div>
+					<div class="[ col-sm-5 ]">
+						<div class="[ hero__text ][ text-light text-shadow text-right ][ margin-top--large ] ">
+							<h1 class="[ xxlarge ][ text-uppercase ]">LOREM IPSUM</h1>
+							<p class="[ large ]">Ipsum dolor sit amet,consectetur amet adipisicing.</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -65,47 +70,98 @@
 				<div class="[ padding--top-bottom--xxlarge ]">
 					<h2 class="[ text-center text-light font-heading ]">ENCUENTRA UN CRUCERO</h2>
 					<form class="[ row ]" role="form">
-						<fieldset class="[ col-xs-6 ][ padding--right--small ]">
-							<select class="[ form-control ][ border-primary margin-bottom--small ][ arrow ]">
+						<div class="[ col-sm-1 ]"></div>
+						<fieldset class="[ col-xs-6 col-sm-2 ][ padding--right--small padding-left-right--small ]">
+							<select class="[ form-control select--short ][ border-primary margin-bottom--small margin-top--sm ][ arrow ]">
 								<option>Destino</option>
 								<option>Destino</option>
 								<option>Destino</option>
 								<option>Destino</option>
 							</select>
 						</fieldset>
-						<fieldset class="[ col-xs-6 ][ padding--left--small ]">
-							<select class="[ form-control ][ border-primary margin-bottom--small ][ arrow ]" >
+						<fieldset class="[ col-xs-6 col-sm-2 ][ padding--left--small padding-left-right--small ]">
+							<select class="[ form-control select--short ][ border-primary margin-bottom--small margin-top--sm ][ arrow ]" >
 								<option>Salida</option>
 								<option>Salida</option>
 								<option>Salida</option>
 								<option>Salida</option>
 							</select>
 						</fieldset>
-						<fieldset class="[ col-xs-12 ]">
-							<select class="[ form-control ][ border-primary ][ margin-bottom--small ][ arrow ]">
-								<option>Fecha de Salida</option>
+						<fieldset class="[ col-xs-12 col-sm-2 ]">
+							<select class="[ form-control select--short ][ border-primary ][ margin-bottom--small margin-top--sm padding-left-right--small ][ arrow ]">
+								<option class="[ visible-sm ]">Fecha</option>
+								<option class="[ hidden-sm ]">Fecha de Salida</option>
 								<option>Fecha de Salida</option>
 								<option>Fecha de Salida</option>
 								<option>Fecha de Salida</option>
 							</select>
 						</fieldset>
-						<fieldset class="[ col-xs-12 ]">
-							<select class="[ form-control ][ border-primary ][ margin-bottom ][ arrow ]">
+						<fieldset class="[ col-xs-12 col-sm-2 ]">
+							<select class="[ form-control select--short ][ border-primary ][ margin-bottom margin-top--sm padding-left-right--small ][ arrow ]">
 								<option>Pasajeros</option>
 								<option>Pasajeros</option>
 								<option>Pasajeros</option>
 								<option>Pasajeros</option>
 							</select>
 						</fieldset>
-						<div class="[ text-center ][ col-xs-12 ]">
+						<div class="[ text-center ][ col-xs-12 col-sm-2  ]">
 							<button type="submit" class="[ btn btn-primary ]">Buscar</button>
 						</div>
 					</form>
 				</div>
 			</div>
 		</section>
+		<div class="[ hidden-xs ][ margin-bottom ]"></div>
+
+		<div class="[ container ][ hidden-xs ]">
+			<div class="[ row ]">
+				<div class="[ col-sm-6 col-md-8 ]">
+					<!--  banners -->
+					<section class="[ text-center ][ banners ][ margin-bottom--xlarge ]">
+						<div class="[ banners__container ]">
+							<div class="[ row ]">
+								<div class="[ col-sm-6 ]">
+									<div class="[ margin-bottom ][ bg-image rectangle-small ][ text-light text-shadow ][ relative ]" style="background-image: url('img/carnival.jpg');">
+										<div class="[ center-full ][ width-90 ]">
+											<h2 class=" [ text-uppercase font-heading ][ no-margin ]">Una noticia</h2>
+										</div>
+									</div>
+									<div class="[ bg-image rectangle-small ][ text-light ][ text-shadow ][ relative ]" style="background-image: url('img/carnival-imagination.jpg');">
+										<div class="[ center-full ][ width-90 ]">
+											<h2 class=" [ text-uppercase font-heading ][ no-margin ] ">Una promoción</h2>
+										</div>
+									</div>
+								</div>
+								<div class="[ col-sm-6 ]">
+									<div class="[ margin-bottom ][ bg-image rectangle-small ][ text-light ][ text-shadow ][ relative ]" style="background-image: url('img/carnival.jpg');">
+										<div class="[ center-full ][ width-90 ]">
+											<h2 class=" [ text-uppercase font-heading ][ no-margin ]">Una novedad</h2>
+										</div>
+									</div>
+									<div class="[ bg-image rectangle-small ][ text-light ][ text-shadow ][ relative ]" style="background-image: url('img/barbados.jpg');">
+										<div class="[ center-full ][ width-90 ]">
+											<h2 class="[ text-uppercase font-heading ][ no-margin ]">barco / puerto/ destino</h2>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div class="[ col-sm-6 col-md-4 ]">
+					<section class="[ text-center ][ margin-bottom--xlarge ]">
+						<div class="[ color-secondary ][ margin-bottom ]">
+							<h2 class=" [ text-uppercase ] ">Carnival visita: meet our new ship</h2>
+						</div>
+						<div class="[ js-video-wrapper ]">
+							<iframe class="[ embed-responsive-item ]" src="https://www.youtube.com/embed/ZTohAlcGqCI" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
 		<!--  banners -->
-		<section class="[ text-center ][ banners ][ margin-bottom--xlarge ]">
+		<section class="[ visible-xs ][ text-center ][ banners ][ margin-bottom--xlarge ]">
 			<div class="[ banners__container ]">
 				<div class="[ bg-image rectangle ][ text-light text-shadow ][ relative ]" style="background-image: url('img/carnival.jpg');">
 					<div class="[ center-full ][ width-90 ]">
@@ -132,12 +188,12 @@
 		</section>
 
 		<!--seccion video-->
-		<section class="[ text-center ][ margin-bottom--xlarge ]">
+		<section class="[ visible-xs ][ text-center ][ margin-bottom--xlarge ]">
 			<div class="[ container ][ color-secondary ][ margin-small ]">
 				<h2 class=" [ text-uppercase font-heading ] ">Carnival vista: meet our new ship</h2>
 			</div>
-			<div class="[ width-100 ][ video-wrapper ][ js-video-wrapper ]">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/ZTohAlcGqCI" frameborder="0" allowfullscreen></iframe>
+			<div class="[ js-video-wrapper ]">
+				<iframe class="[ embed-responsive-item ]" src="https://www.youtube.com/embed/ZTohAlcGqCI" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</section>
 
@@ -181,20 +237,25 @@
 							</button>
 						</div>
 					</section>
+					<div class="[ visible-sm ][ clearfix ]"></div>
 
-					<section class="[ site-links ][ bg-primary ][ text-center text-light ][ padding--top-bottom--large ][ col-xs-12 col-sm-6 col-md-3 ]">
-						<h3 class="[ text-uppercase ][ color-light ][ margin-bottom ]"> Links </h3>
-						<a class="[ site-links__link ]" href="registro.html">Registro de agencias</a>
-						<a class="[ site-links__link ]" href="folletos.html">Folletos</a>
-						<a class="[ site-links__link ]" href="directorio.html">Directorio</a>
-						<a class="[ site-links__link ]" href="politicas.html">Políticas</a>
-						<a class="[ site-links__link ]" href="contacto.html">Contacto</a>
+					<section class="[ box-primary ][ padding--top-bottom--large ][ col-xs-12 col-sm-6 col-md-3 ]">
+						<div class="[ row ]">
+							<h3 class="[ col-xs-12 ][ text-uppercase ][ margin-bottom ]"> Links </h3>
+							<a class="[ col-sm-6 col-md-12 ][ site-links__link ]" href="registro.html">Registro de agencias</a>
+							<a class="[ col-sm-6 col-md-12 ][ site-links__link ]" href="folletos.html">Folletos</a>
+							<a class="[ col-sm-6 col-md-12 ][ site-links__link ]" href="directorio.html">Directorio</a>
+							<a class="[ col-sm-6 col-md-12 ][ site-links__link ]" href="politicas.html">Políticas</a>
+							<a class="[ col-sm-6 col-md-12 ][ site-links__link ]" href="contacto.html">Contacto</a>
+						</div>
 					</section>
 
-					<section class="[ site-links ][ bg-primary ][ text-center text-light ][ padding--top-bottom--large ][ col-xs-12 col-sm-6 col-md-3 ]">
-						<h3 class="[ text-uppercase ][ color-light ][ margin-bottom ]"> Visas </h3>
-						<a class="[ site-links__link ]" href="">Canada</a>
-						<a class="[ site-links__link ]" href="">Estados Unidos</a>
+					<section class="[ box-primary ][ padding--top-bottom--large ][ col-xs-12 col-sm-6 col-md-3 ]">
+						<div class="[ row ]">
+							<h3 class="[ col-xs-12 ][ text-uppercase ][ margin-bottom ]"> Visas </h3>
+							<a class="[ col-sm-6 col-md-12 ][ site-links__link ]" href="">Canada</a>
+							<a class="[ col-sm-6 col-md-12 ][ site-links__link ]" href="">Estados Unidos</a>
+						</div>
 					</section>
 
 				</div>
@@ -206,9 +267,9 @@
 		</footer>
 
 	<!-- Modal -->
-		<div id="myModal" class="modal fade" role="dialog">
-			<div class="modal-dialog">
-				<div class="modal-content [ color-light ][ text-center ]">
+		<div id="myModal" class="[ modal fade ]" role="dialog">
+			<div class="[ modal-dialog ]">
+				<div class="[ modal-content ][ color-light ][ text-center ]">
 					<div class="[ modal-header ][ bg-light ][ padding--bottom--small ]">
 						<div class="[ container ]">
 							<div class="[ col-xs-6 ][ col-lg-3 ][ ]">
@@ -220,13 +281,13 @@
 							</div>
 						</div>
 					</div>
-					<div class="[ modal-body ][ bg-primary ]">
-						<p class="[ margin-medium margin-top ][ large ]"><a class="[ color-light ]" href="cruceros.html">¿Por qué cruceros Carnival?</a></p>
-						<p class="[ margin-medium ][ large ]"><a class="[ color-light ]" href="destinos.html">Destinos</a></p>
-						<p class="[ margin-medium ][ large ]"><a class="[ color-light ]" href="actividades.html">Actividades</a></p>
-						<p class="[ margin-medium ][ large ]"><a class="[ color-light ]" href="antes-viajar.html">Antes de Viajar</a></p>
-						<p class="[ margin-medium ][ large ]"><a class="[ color-light ]" href="barcos.html">Barcos</a></p>
-						<p class="[ margin-medium ][ large ]"><a class="[ color-light ]" href="preguntas-frecuentes.html">Peguntas frecuentes</a></p>
+					<div class="[ modal-body ][ bg-primary ][ large ][ padding--top--xxlarge ]">
+						<p class="[ margin-bottom--large ]"><a class="[ color-light ]" href="cruceros.html">¿Por qué cruceros Carnival?</a></p>
+						<p class="[ margin-bottom--large ]"><a class="[ color-light ]" href="destinos.html">Destinos</a></p>
+						<p class="[ margin-bottom--large ]"><a class="[ color-light ]" href="actividades.html">Actividades</a></p>
+						<p class="[ margin-bottom--large ]"><a class="[ color-light ]" href="antes-viajar.html">Antes de Viajar</a></p>
+						<p class="[ margin-bottom--large ]"><a class="[ color-light ]" href="barcos.html">Barcos</a></p>
+						<p class="[ margin-bottom--large ]"><a class="[ color-light ]" href="preguntas-frecuentes.html">Peguntas frecuentes</a></p>
 					</div>
 				</div>
 			</div>
@@ -247,7 +308,6 @@
 
 				imgToSvg();
 				 $('.js-video-wrapper').fitVids();
-
 
 				/**
 				 * Triggered events

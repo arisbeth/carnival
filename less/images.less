@@ -18,21 +18,32 @@
 
 .rectangle{
 	height: 150px;
-	@media (min-width: 992px){ height: 250px;}
-
+	@media (min-width: @screen-sm){ height: 200px;}
 }
-.rectangle-small{ height: 80px; }
+.rectangle-small{
+	height: 80px;
+	@media (min-width: @screen-sm){ height: 130px;}
+}
 // .carta{
 // 	width: 330px ;
 // 	height: 255px ;
 // 	border: 1px solid red;
 // }
 
+.rectangle-md{
+	height:200px;
+	@media (min-width: @screen-sm){ height: 250px;}
+}
+
 .square{
 	height: 300px;
-	@media (min-width: 992px){ height: 520px;}
+	@media (min-width: @screen-sm){ height: 420px;}
 }
 .img-size-xs{ width: 20% }
+.img-size-small{
+	width: 30%;
+	@media (min-width: @screen-sm){ width: 20% ;}
+}
 
 .img-auto{ margin: auto; }
 .img-icons{
@@ -40,3 +51,15 @@
 	width: 25px;
 }
 
+.overflow-hidden{ overflow: hidden;}
+
+div.user-content img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 20px auto;
+	@media (min-width: @screen-sm){
+		max-width: 80%;
+		margin: 30px auto;
+	}
+}
