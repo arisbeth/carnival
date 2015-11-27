@@ -1661,6 +1661,15 @@ footer p {
 .img-center {
   vertical-align: middle;
 }
+div.user-content a {
+  color: #ff0026;
+  border-bottom: 1px solid #ff0026;
+}
+@media (min-width: 768px) {
+  div.user-content p {
+    margin: 0 25%;
+  }
+}
 code,
 kbd,
 pre,
@@ -5523,6 +5532,18 @@ a.thumbnail.active {
 }
 .overflow-hidden {
   overflow: hidden;
+}
+div.user-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+}
+@media (min-width: 768px) {
+  div.user-content img {
+    max-width: 80%;
+    margin: 30px auto;
+  }
 }
 .icon {
   display: inline-block;
