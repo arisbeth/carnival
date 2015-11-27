@@ -6342,6 +6342,13 @@ header a:focus {
     text-align: left;
   }
 }
+footer a {
+  color: #ffffff;
+}
+footer a:hover,
+footer a:focus {
+  color: #999999;
+}
 .modal-open {
   overflow: hidden;
 }
@@ -6425,7 +6432,7 @@ header a:focus {
 }
 .modal-body a:hover,
 .modal-body a:focus {
-  color: #ff0026;
+  color: #999999;
 }
 .modal-footer {
   padding: 15px;
