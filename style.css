@@ -6199,8 +6199,10 @@ button.list-group-item-danger.active:focus {
 }
 .modal-body--video,
 .js-video-wrapper,
-.fluid-width-video-wrapper {
+.fluid-width-video-wrapper,
+.video-100 {
   height: 100%;
+  width: 100%;
 }
 .well {
   min-height: 20px;
