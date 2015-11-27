@@ -51,24 +51,13 @@
 }
 // Actual modal
 .modal-content {
-  height: 100vh;
   position: relative;
-  background-color: @modal-content-bg;
-}
-
-.modal-content-video {
-  height: 70vh;
-  position: relative;
-  background: @modal-content-bg;
+  background-color: @light;
 }
 
 // Modal background
 .modal-backdrop {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  position: fixed; top: 0; right: 0; bottom: 0; left: 0;
   z-index: @zindex-modal-background;
   background-color: @modal-backdrop-bg;
   // Fade for backdrop
@@ -157,9 +146,4 @@
 }
 .closer{
   margin:0px;
-}
-
-.modal-content--height{
-  height: 80vh;
-  margin: 10vh 15px;
 }
