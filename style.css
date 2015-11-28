@@ -3222,7 +3222,7 @@ textarea {
   white-space: nowrap;
   padding: 6px 12px;
   font-size: 1.14em;
-  line-height: 1.42857143;
+  line-height: 28px;
   border-radius: 4px;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -3684,7 +3684,7 @@ input[type="button"].btn-block {
 .btn--action {
   width: 50px;
   height: 50px;
-  padding: 3px;
+  padding: 9px;
   border-radius: 50%;
   color: #ffffff;
   line-height: 27px;
@@ -3698,6 +3698,10 @@ input[type="button"].btn-block {
 }
 .btn--action--right {
   right: 10px;
+}
+.btn--action .icon {
+  width: 30px !important;
+  height: 30px !important;
 }
 .fade {
   opacity: 0;
@@ -5548,7 +5552,6 @@ div.user-content img {
 .icon {
   display: inline-block;
   vertical-align: middle;
-  height: auto !important;
   margin-right: .2em;
   margin-left: .2em;
   -webkit-transition: all 0.3s ease;
@@ -5565,22 +5568,23 @@ div.user-content img {
 }
 .icon--min {
   width: 40px;
+  height: 40px;
 }
 .icon--iconed {
   width: 16px !important;
+  height: 16px;
 }
 .icon--iconed--mini {
   width: 10px !important;
+  height: 10px;
 }
 .icon--iconed--large {
   width: 20px !important;
+  height: 20px;
 }
 .icon--feature {
   width: 6em !important;
-}
-.icon--logo {
-  width: 150px;
-  height: auto;
+  height: 6em;
 }
 /*------------------------------------*\
   #COLOR
@@ -7314,6 +7318,30 @@ ul.horizontal-slide li[class*="col"]:first-child {
 .margin-sides--large {
   margin-left: 40px;
   margin-right: 40px;
+}
+.margin-right {
+  margin-right: 20px;
+}
+.margin-right--xsmall {
+  margin-right: 5px;
+}
+.margin-right--small {
+  margin-right: 10px;
+}
+.margin-right--large {
+  margin-right: 40px;
+}
+.margin-left {
+  margin-left: 20px;
+}
+.margin-left--xsmall {
+  margin-left: 5px;
+}
+.margin-left--small {
+  margin-left: 10px;
+}
+.margin-left--large {
+  margin-left: 40px;
 }
 .margin-top-bottom {
   margin-top: 20px;
