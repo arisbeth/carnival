@@ -91,7 +91,7 @@
   padding: @modal-inner-padding;
     & a {
       &:hover,
-      &:focus { color: @secondary; }
+      &:focus { color: @gray-light; }
       }
 }
 
@@ -146,4 +146,12 @@
 }
 .closer{
   margin:0px;
+}
+
+.modal-center{
+  width: 90%;
+  @media (min-width: @screen-md-min) {
+    width: 50%;
+}
+
 }
