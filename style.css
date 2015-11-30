@@ -6274,7 +6274,7 @@ header {
 }
 @media (min-width: 768px) {
   header {
-    height: 116px;
+    height: 98px;
   }
 }
 .nav a {
@@ -6990,7 +6990,7 @@ ul.horizontal-slide {
   width: 100%;
   white-space: nowrap;
   overflow-x: auto;
-  overflow-y: visible;
+  overflow-y: hidden;
 }
 ul.horizontal-slide li[class*="col"] {
   display: inline-block;
