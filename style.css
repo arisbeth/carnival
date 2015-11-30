@@ -6269,12 +6269,12 @@ button.close {
   top: -10px;
 }
 header {
-  height: 44px;
+  height: 64px;
   font-family: 'Open Sans', sans-serif;
 }
 @media (min-width: 768px) {
   header {
-    height: 98px;
+    height: 110px;
   }
 }
 .nav a {
@@ -6299,7 +6299,7 @@ header {
   height: 44px;
 }
 .logo-carnival {
-  width: 129px;
+  width: 185px;
 }
 .hero {
   width: 100%;
