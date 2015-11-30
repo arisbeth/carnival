@@ -2629,6 +2629,11 @@ table th[class*="col-"] {
     border-bottom: 0;
   }
 }
+table {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  font-size: 1.2em;
+}
 fieldset {
   padding: 0;
   margin: 0;
