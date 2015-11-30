@@ -6274,20 +6274,29 @@ header {
 }
 @media (min-width: 768px) {
   header {
-    height: 95px;
+    height: 118px;
   }
+}
+.nav a {
+  font-size: 120%;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 @media (min-width: 992px) {
-  header {
-    height: 100px;
+  .nav a {
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
-header a {
-  color: #ffffff;
-}
-header a:hover,
-header a:focus {
-  color: #999999;
+.nav a:hover,
+.nav a:focus {
+  color: #07539c;
+  background-color: #ffffff;
+  height: 44px;
 }
 .logo-carnival {
   width: 129px;
@@ -6493,6 +6502,17 @@ footer a:focus {
   .modal-center {
     width: 50%;
   }
+}
+.modal-nav a {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.modal-nav a:hover,
+.modal-nav a:focus {
+  color: #07539c;
+  background-color: #ffffff;
 }
 .tooltip {
   position: absolute;
