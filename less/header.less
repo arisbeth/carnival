@@ -4,16 +4,23 @@
 
 header{
 	height: 44px;
-	@media (min-width: @screen-sm){ height: 95px;}
-	@media (min-width: @screen-md){ height: 100px;}
+	@media (min-width: @screen-sm){ height: 118px;}
 	font-family: 'Open Sans', sans-serif;
-		& a {
-			color: @light;
-			&:hover,
-			&:focus {
-				color: @gray-light;
-				}
-			}
+}
+
+.nav a{
+	font-size: 120%;
+	font-family: 'Open Sans', sans-serif;
+	color: @light;
+	padding-top: (@padding-base-vertical*2);padding-bottom: (@padding-base-vertical*2);
+	padding-left: (@padding-base-vertical);padding-right: (@padding-base-vertical);
+	@media (min-width: @screen-md){ padding-left: (@padding-base-vertical*4);padding-right: (@padding-base-vertical*4);}
+	&:hover,
+	&:focus {
+		color: @primary;
+		background-color: @light;
+		height: 44px;
+		}
 }
 
 
