@@ -6298,8 +6298,13 @@ header {
   background-color: #ffffff;
   height: 44px;
 }
-.logo-carnival {
-  width: 185px;
+.width-logo {
+  width: 150px;
+}
+@media (min-width: 768px) {
+  .width-logo {
+    width: 185px;
+  }
 }
 .hero {
   width: 100%;
@@ -7560,6 +7565,9 @@ ul.horizontal-slide li[class*="col"]:first-child {
 }
 .margin-top {
   margin-top: 20px;
+}
+.margin-top--xsmall {
+  margin-top: 5px;
 }
 .margin-top--small {
   margin-top: 10px;
