@@ -117,6 +117,7 @@
 
 .padding--top{ padding-top: (@padding-base-vertical*2); }
 .padding--top--small{ padding-top: (@padding-base-vertical); }
+.padding--top-bottom--xsmall{ padding-top: (@padding-base-vertical/2); }
 .padding--top--large{ padding-top: (@padding-base-vertical*4); }
 .padding--top--xlarge{ padding-top: (@padding-base-vertical*6); }
 .padding--top--xxlarge{ padding-top: (@padding-base-vertical*8); }
@@ -150,10 +151,7 @@
 .padding--left--xlarge{ padding-left: (@padding-base-vertical*6); }
 .padding--left--xxlarge{ padding-left: (@padding-base-vertical*8); }
 
-.padding-left-right--small{
-      padding-left: @padding-large-horizontal;
-      padding-right: @padding-large-horizontal;
-    }
+.padding-left-right--small{ padding-left: @padding-base-horizontal; padding-right: @padding-base-horizontal;}
 
 
 
@@ -214,7 +212,7 @@
 .margin-top-bottom--large{ margin-top: (@margin-base*2); margin-bottom: (@margin-base*2); }
 
 .margin-top--sm{
-  @media (min-width: @screen-sm){ margin-top: 6px; }
+  @media (min-width: @screen-sm){ margin-top: 8px; }
    }
 
 // Geometric forms
