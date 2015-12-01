@@ -6547,6 +6547,9 @@ footer a:focus {
   color: #07539c;
   background-color: #ffffff;
 }
+.modal-menu__header {
+  padding: 16px 0 6px 5px;
+}
 .tooltip {
   position: absolute;
   z-index: 1070;
