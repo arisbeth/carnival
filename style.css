@@ -7628,7 +7628,7 @@ ul.horizontal-slide li[class*="col"]:first-child {
 }
 @media (min-width: 768px) {
   .margin-top--sm {
-    margin-top: 10px;
+    margin-top: 6px;
   }
 }
 .circle {
