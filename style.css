@@ -1347,6 +1347,32 @@ small,
     font-size: 140%;
   }
 }
+.fz-title--small {
+  font-size: 18px;
+}
+@media (min-width: 768px) {
+  .fz-title--small {
+    font-size: 24px;
+  }
+}
+@media (min-width: 992px) {
+  .fz-title--small {
+    font-size: 28px;
+  }
+}
+.fz-title--large {
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  .fz-title--large {
+    font-size: 26px;
+  }
+}
+@media (min-width: 992px) {
+  .fz-title--large {
+    font-size: 30px;
+  }
+}
 mark,
 .mark {
   background-color: #fcf8e3;
@@ -3210,7 +3236,7 @@ textarea {
 }
 @media (min-width: 768px) {
   .select--short {
-    padding: 5px;
+    padding: 5px 12px;
   }
 }
 .btn {
@@ -5609,7 +5635,7 @@ div.user-content img {
  * Stroke
 **/
 .icon--stroke {
-  stroke-width: 0.7;
+  stroke-width: 1.5;
 }
 .icon--thickness-1 {
   stroke-width: 1;
@@ -6269,7 +6295,7 @@ button.close {
   top: -10px;
 }
 header {
-  height: 64px;
+  height: 44px;
   font-family: 'Open Sans', sans-serif;
 }
 @media (min-width: 768px) {
@@ -6295,11 +6321,18 @@ header {
 .nav a:hover,
 .nav a:focus {
   color: #07539c;
+  -webkit-transition: ease 0.8s;
+  transition: ease 0.8s;
   background-color: #ffffff;
   height: 44px;
 }
 .logo-carnival {
   width: 185px;
+}
+@media (max-width: 768px) {
+  .logo-carnival {
+    width: 130px;
+  }
 }
 .hero {
   width: 100%;
@@ -7420,6 +7453,9 @@ ul.horizontal-slide li[class*="col"]:first-child {
 .padding--top--small {
   padding-top: 6px;
 }
+.padding--top-bottom--xsmall {
+  padding-top: 3px;
+}
 .padding--top--large {
   padding-top: 24px;
 }
@@ -7510,8 +7546,8 @@ ul.horizontal-slide li[class*="col"]:first-child {
   padding-left: 48px;
 }
 .padding-left-right--small {
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .no-border {
   border: none;
@@ -7628,7 +7664,7 @@ ul.horizontal-slide li[class*="col"]:first-child {
 }
 @media (min-width: 768px) {
   .margin-top--sm {
-    margin-top: 6px;
+    margin-top: 8px;
   }
 }
 .circle {

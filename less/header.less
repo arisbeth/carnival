@@ -3,7 +3,7 @@
 // --------------------------------------------------
 
 header{
-	height: 64px;
+	height: 44px;
 	@media (min-width: @screen-sm){ height: 110px;}
 	font-family: 'Open Sans', sans-serif;
 }
@@ -18,10 +18,15 @@ header{
 	&:hover,
 	&:focus {
 		color: @primary;
+		-webkit-transition: ease 0.8s;
+		transition: ease 0.8s;
 		background-color: @light;
 		height: 44px;
 		}
 }
 
 
-.logo-carnival{ width: 185px; }
+.logo-carnival{
+	width: 185px;
+	@media (max-width: @screen-sm){ width: 130px; }
+}
