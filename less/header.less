@@ -3,8 +3,8 @@
 // --------------------------------------------------
 
 header{
-	height: 44px;
-	@media (min-width: @screen-sm){ height: 110px;}
+	height: 51px;
+	@media (min-width: @screen-sm){ height: 108px;}
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -18,16 +18,19 @@ header{
 	&:hover,
 	&:focus {
 		color: @primary;
-		-webkit-transition: ease 0.8s;
-		transition: ease 0.8s;
+		.transition;
 		background-color: @light;
 		height: 44px;
-		}
+	}
 }
 
 
 .width-logo{
-	width: 150px;
-	@media (min-width: @screen-sm){width: 185px;}
+	width: 130px;
+	margin: @margin-small;
+	@media (min-width: @screen-sm){
+		width: 185px;
+		margin: @margin-small 0;
+	}
 
  }
