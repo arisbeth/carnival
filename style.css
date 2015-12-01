@@ -5613,12 +5613,19 @@ div.user-content img {
   width: 20px !important;
   height: 20px;
 }
+.icon--iconed--xlarge {
+  width: 25px !important;
+  height: 25px;
+}
 .icon--feature {
   width: 6em !important;
   height: 6em;
 }
 /*------------------------------------*\
   #COLOR
+
+
+
 \*------------------------------------*/
 /**
  * Fill
@@ -5630,6 +5637,9 @@ div.user-content img {
 .icon--fill polyline,
 .icon--fill polygon {
   fill: currentColor;
+}
+.icon--secondary {
+  fill: #ff0026;
 }
 /**
  * Stroke
