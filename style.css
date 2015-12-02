@@ -1626,6 +1626,9 @@ a {
 .text-shadow {
   text-shadow: 2px 2px 1px #222222;
 }
+.text-lighter {
+  font-weight: lighter;
+}
 .larger {
   font-size: 170%;
 }
@@ -4332,6 +4335,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border: 2px solid #07539c;
   border-bottom-color: #07539c;
   cursor: default;
+}
+@media (max-width: 480px) {
+  .nav-tabs > li.active > a,
+  .nav-tabs > li.active > a:hover,
+  .nav-tabs > li.active > a:focus {
+    height: 30px;
+  }
 }
 .nav-tabs.nav-justified {
   width: 100%;
