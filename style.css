@@ -3750,6 +3750,10 @@ input[type="button"].btn-block {
   width: 30px !important;
   height: 30px !important;
 }
+.btn--small {
+  font-size: 160%;
+  padding: 10px 15px 3px;
+}
 .fade {
   opacity: 0;
   transition: opacity 0.15s linear;
@@ -4298,16 +4302,17 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   max-width: none;
 }
 .nav-tabs {
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 2px solid #07539c;
 }
 .nav-tabs > li {
   float: left;
   margin-bottom: -1px;
 }
 .nav-tabs > li > a {
+  color: #76b9f9;
   margin-right: 2px;
   line-height: 1.42857143;
-  border: 1px solid transparent;
+  border: 1px solid #07539c;
   border-radius: 4px 4px 0 0;
 }
 .nav-tabs > li > a:hover {
@@ -4316,10 +4321,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #555555;
+  color: #07539c;
+  font-weight: bold;
   background-color: #ffffff;
-  border: 1px solid #dddddd;
-  border-bottom-color: transparent;
+  border: 2px solid #07539c;
+  border-bottom-color: #07539c;
   cursor: default;
 }
 .nav-tabs.nav-justified {
