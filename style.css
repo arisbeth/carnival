@@ -1350,21 +1350,8 @@ small,
     font-size: 140%;
   }
 }
-.fz-title--small {
-  font-size: 18px;
-}
-@media (min-width: 768px) {
-  .fz-title--small {
-    font-size: 24px;
-  }
-}
-.fz-title--large {
-  font-size: 20px;
-}
-@media (min-width: 768px) {
-  .fz-title--large {
-    font-size: 26px;
-  }
+.padding-title {
+  margin-top: 4px;
 }
 mark,
 .mark {
@@ -1693,6 +1680,12 @@ footer p {
   color: #ff0026;
   text-align: center;
   text-transform: uppercase;
+}
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
 }
 code,
 kbd,
@@ -5638,6 +5631,7 @@ div.user-content img {
   width: 25px !important;
   height: 25px;
   margin-top: 5px;
+  margin-right: 7px;
 }
 .icon--feature {
   width: 6em !important;
@@ -6332,7 +6326,7 @@ header {
 }
 @media (min-width: 768px) {
   header {
-    height: 108px;
+    height: 109px;
   }
 }
 .nav a {
@@ -6585,6 +6579,9 @@ footer a:focus {
 }
 .modal-menu__header {
   padding: 0px;
+}
+body.modal-open {
+  overflow: visible;
 }
 .tooltip {
   position: absolute;
