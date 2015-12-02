@@ -77,24 +77,26 @@
 
 // Give the tabs something to sit on
 .nav-tabs {
-  border-bottom: 2px solid @primary;
+    text-align: center;
   > li {
-    float: left;
+    display: inline-block;
+    margin-right: 2px;
+    border-radius: @border-radius-base @border-radius-base 0 0;
     // Make the list-items overlay the bottom border
     margin-bottom: -2px;
 
     // Actual tabs (as links)
     > a {
       font-size: 120%;
+      border: 2px solid transparent;
+      font-weight: bold;
       @media (max-width: @screen-xs){
         font-size: 90%;
         padding: 5px;
         height: 30px;
       }
       color: @primary;
-      margin-right: 2px;
       line-height: @line-height-base;
-      border-radius: @border-radius-base @border-radius-base 0 0;
       &:hover {
         border-color: @nav-tabs-link-hover-border-color @nav-tabs-link-hover-border-color @nav-tabs-border-color;
         @media (max-width: @screen-xs){ height: 30px;}
@@ -107,7 +109,6 @@
       &:hover,
       &:focus {
         color: @primary;
-        font-weight: bold;
         background-color: @nav-tabs-active-link-hover-bg;
         border: 2px solid @primary;
         border-bottom-color: @primary;
