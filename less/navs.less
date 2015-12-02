@@ -81,17 +81,23 @@
   > li {
     float: left;
     // Make the list-items overlay the bottom border
-    margin-bottom: -1px;
+    margin-bottom: -2px;
 
     // Actual tabs (as links)
     > a {
-      color: @primary-lighten;
+      font-size: 120%;
+      @media (max-width: @screen-xs){
+        font-size: 90%;
+        padding: 5px;
+        height: 30px;
+      }
+      color: @primary;
       margin-right: 2px;
       line-height: @line-height-base;
-      border: 1px solid @primary;
       border-radius: @border-radius-base @border-radius-base 0 0;
       &:hover {
         border-color: @nav-tabs-link-hover-border-color @nav-tabs-link-hover-border-color @nav-tabs-border-color;
+        @media (max-width: @screen-xs){ height: 30px;}
       }
     }
 

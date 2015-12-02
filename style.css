@@ -4299,17 +4299,29 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav-tabs > li {
   float: left;
-  margin-bottom: -1px;
+  margin-bottom: -2px;
 }
 .nav-tabs > li > a {
-  color: #76b9f9;
+  font-size: 120%;
+  color: #07539c;
   margin-right: 2px;
   line-height: 1.42857143;
-  border: 1px solid #07539c;
   border-radius: 4px 4px 0 0;
+}
+@media (max-width: 480px) {
+  .nav-tabs > li > a {
+    font-size: 90%;
+    padding: 5px;
+    height: 30px;
+  }
 }
 .nav-tabs > li > a:hover {
   border-color: #eeeeee #eeeeee #dddddd;
+}
+@media (max-width: 480px) {
+  .nav-tabs > li > a:hover {
+    height: 30px;
+  }
 }
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
