@@ -9,24 +9,24 @@
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<header class="[ bg-light ][ padding--top-bottom--small ][ margin-bottom--md ]">
+		<header class="[ bg-light ]">
 			<div class="[ container ]">
 				<div class="[ row ]">
 					<div class="[ col-xs-6 col-md-3 ][ no-padding ]">
 						<a href="index.html" class="[ show ]">
-							<img class="[ width-logo ][ margin-top--small ][ margin-left ]" src="img/carnival-logo.png">
+							<img class="[ width-logo ]" src="img/carnival-logo.png">
 						</a>
 					</div>
-					<div class="[ hidden-xs  ][ col-md-9 ][ margin-top--small ]">
-						<div class="[ pull-right ][ medium color-secondary ][ margin-top--small ]">
+					<div class="[ hidden-xs  ][ col-md-9 ][ margin-top ]">
+						<div class="[ pull-right ][ fz-medium color-secondary ]">
 							<a class="[ color-secondary ]" href="promociones.html">
-								<img class="[ svg ][ icon icon--iconed--large icon--stroke icon--thickness-1 ]" src="icons/promotions.svg">
+								<img class="[ svg ][ icon icon--iconed--large icon--stroke ]" src="icons/promotions.svg">
+								<span>Promociones</span>
 							</a>
-							<a class="[ color-secondary ]" href="promociones.html">Promociones</a>
 							<a class="[ color-secondary ]" href="tel:+525552555555">
-								<img class="[ svg ][ icon icon--iconed--large icon--stroke icon--thickness-1 ]" src="icons/phone.svg">
+								<img class="[ svg ][ icon icon--iconed--large icon--stroke ]" src="icons/phone.svg">
+								<span>5255 - 5555</span>
 							</a>
-							<a class="[ color-secondary ]" href="tel:+525552555555">5255 - 5555</a>
 						</div>
 					</div>
 					<div class="[ hidden-sm hidden-md hidden-lg ][ col-xs-6 ][ text-right ][ margin-top--small ]">
@@ -73,7 +73,7 @@
 			<div class="[ container ]">
 				<div class="[ padding--top-bottom--xxlarge ]">
 					<h2 class="[ text-center text-light font-heading ]">ENCUENTRA UN CRUCERO</h2>
-					<form class="[ row ]" role="form">
+					<form class="[ row ][ margin-bottom--large ]" role="form">
 						<div class="[ col-sm-1 ]"></div>
 						<fieldset class="[ col-xs-6 col-sm-2 ][ padding--right--small padding-left-right--small ]">
 							<select class="[ form-control select--short ][ border-primary margin-bottom--small margin-top--sm ][ arrow ]">
@@ -112,14 +112,45 @@
 							<button type="submit" class="[ btn btn-primary ]">Buscar</button>
 						</div>
 					</form>
+
+					<div class="[ row ][ text-center ]">
+						<p><a href="recuperar-reserva.html" class="[ color-light ][ underlined ][ medium ]">Recuperar reserva</a></p>
+					</div>
 				</div>
 			</div>
 		</section>
+
 		<div class="[ hidden-xs ][ margin-bottom ]"></div>
 
-		<div class="[ container ][ hidden-xs ]">
+		<!--  banners -->
+		<section class="[ visible-xs ][ text-center ][ banners ][ margin-bottom--xlarge ]">
+			<div class="[ banners__container ]">
+				<div class="[ bg-image rectangle ][ text-light text-shadow ][ relative ]" style="background-image: url('img/carnival-imagination.jpg');">
+					<div class="[ center-full ][ width-90 ]">
+						<h2 class=" [ text-uppercase font-heading ][ no-margin ]">Una noticia</h2>
+					</div>
+				</div>
+				<div class="[ bg-image rectangle ][ text-light ][ text-shadow ][ relative ]" style="background-image: url('img/carnival-imagination.jpg');">
+					<div class="[ center-full ][ width-90 ]">
+						<h2 class=" [ text-uppercase font-heading ][ no-margin ] ">Una promoción</h2>
+					</div>
+				</div>
+				<div class="[ bg-image rectangle ][ text-light ][ text-shadow ][ relative ]" style="background-image: url('img/carnival-imagination.jpg');">
+					<div class="[ center-full ][ width-90 ]">
+						<h2 class=" [ text-uppercase font-heading ][ no-margin ]">Una novedad</h2>
+					</div>
+				</div>
+				<div class="[ bg-image rectangle ][ text-light ][ text-shadow ][ relative ]" style="background-image: url('img/barbados.jpg');">
+					<div class="[ center-full ][ width-90 ]">
+						<h2 class="[ text-uppercase font-heading ][ no-margin ]">barco / puerto/ destino</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="[ container ]">
 			<div class="[ row ]">
-				<div class="[ col-sm-6 col-md-8 ]">
+				<div class="[ hidden-xs ][ col-sm-6 col-md-8 ]">
 					<!--  banners -->
 					<section class="[ text-center ][ banners ][ margin-bottom--xlarge ]">
 						<div class="[ banners__container ]">
@@ -164,42 +195,6 @@
 				</div>
 			</div>
 		</div>
-		<!--  banners -->
-		<section class="[ visible-xs ][ text-center ][ banners ][ margin-bottom--xlarge ]">
-			<div class="[ banners__container ]">
-				<div class="[ bg-image rectangle ][ text-light text-shadow ][ relative ]" style="background-image: url('img/carnival.jpg');">
-					<div class="[ center-full ][ width-90 ]">
-						<h2 class=" [ text-uppercase font-heading ][ no-margin ]">Una noticia</h2>
-					</div>
-				</div>
-				<div class="[ bg-image rectangle ][ text-light ][ text-shadow ][ relative ]" style="background-image: url('img/carnival-imagination.jpg');">
-					<div class="[ center-full ][ width-90 ]">
-						<h2 class=" [ text-uppercase font-heading ][ no-margin ] ">Una promoción</h2>
-					</div>
-				</div>
-				<div class="[ bg-image rectangle ][ text-light ][ text-shadow ][ relative ]" style="background-image: url('img/carnival.jpg');">
-					<div class="[ center-full ][ width-90 ]">
-						<h2 class=" [ text-uppercase font-heading ][ no-margin ]">Una novedad</h2>
-					</div>
-				</div>
-				<div class="[ bg-image rectangle ][ text-light ][ text-shadow ][ relative ]" style="background-image: url('img/barbados.jpg');">
-					<div class="[ center-full ][ width-90 ]">
-						<h2 class="[ text-uppercase font-heading ][ no-margin ]">barco / puerto/ destino</h2>
-					</div>
-				</div>
-			</div>
-
-		</section>
-
-		<!--seccion video-->
-		<section class="[ visible-xs ][ text-center ][ margin-bottom--xlarge ]">
-			<div class="[ container ][ color-secondary ][ margin-small ]">
-				<h2 class=" [ text-uppercase font-heading ] ">Carnival vista: meet our new ship</h2>
-			</div>
-			<div class="[ js-video-wrapper ]">
-				<iframe class="[ embed-responsive-item ]" src="https://www.youtube.com/embed/ZTohAlcGqCI" frameborder="0" allowfullscreen></iframe>
-			</div>
-		</section>
 
 		<a class="[ btn btn-primary btn--action btn--action--left ][ visible-xs-block ]" href="tel:+525552555555">
 			<img class="[ svg ][ icon icon--iconed--large icon--stroke icon--thickness-1 ][ color-light ][ no-margin ]" src="icons/phone.svg">
@@ -273,18 +268,17 @@
 		<div id="myModal" class="[ modal fade ]" role="dialog">
 			<div class="[ modal-dialog ]">
 				<div class="[ modal-content ][ color-light ]">
-					<div class="[ modal-header modal-menu__header ][ bg-light ][ padding--bottom--small ]">
+					<div class="[ modal-header modal-menu__header ][ bg-light ]">
 						<div class="[ container ]">
 							 <div class="[ row ]">
-							 	<div class="[ col-xs-6 ][ col-lg-3 ]">
-								<!--logo carnival-->
-									<a href="index.html">
+								 <div class="[ col-xs-6 ][ no-padding ]">
+									<a href="index.html" class="[ show ]">
 										<img class="[ width-logo ]" src="img/carnival-logo.png">
 									</a>
 								</div>
-								<div class="[ col-xs-2 ][ pull-right ][ text-right ][ margin-right--small ]">
+								<div class="[ col-xs-6 ][ pull-right ][ text-right ][ margin-top--small ]">
 									<span type="button" class="[ closer ][ color-secondary ]" data-dismiss="modal">
-										<img src="icons/close.svg" class="[ svg ][ icon--iconed--xlarge icon--secondary icon--stroke ][ margin-top--small margin-left--small ]" alt="">
+										<img src="icons/close.svg" class="[ svg ][ icon--iconed--xlarge icon--secondary icon--stroke ]" alt="">
 									</span>
 								</div>
 							 </div>

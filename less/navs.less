@@ -7,7 +7,6 @@
 // --------------------------------------------------
 
 .nav {
-  margin-top: 15px;
   margin-bottom: 0;
   padding-left: 0; // Override default ul/ol
   list-style: none;
@@ -78,20 +77,28 @@
 
 // Give the tabs something to sit on
 .nav-tabs {
-  border-bottom: 1px solid @nav-tabs-border-color;
+    text-align: center;
   > li {
-    float: left;
+    display: inline-block;
+    margin-right: 2px;
     // Make the list-items overlay the bottom border
-    margin-bottom: -1px;
+    margin-bottom: -2px;
 
     // Actual tabs (as links)
     > a {
-      margin-right: 2px;
+      font-size: 120%;
+      border: 2px solid transparent;
+      font-weight: bold;
+      @media (max-width: @screen-xs){
+        font-size: 90%;
+        padding: 5px;
+        height: 30px;
+      }
+      color: @primary;
       line-height: @line-height-base;
-      border: 1px solid transparent;
-      border-radius: @border-radius-base @border-radius-base 0 0;
       &:hover {
         border-color: @nav-tabs-link-hover-border-color @nav-tabs-link-hover-border-color @nav-tabs-border-color;
+        @media (max-width: @screen-xs){ height: 30px;}
       }
     }
 
@@ -100,11 +107,12 @@
       &,
       &:hover,
       &:focus {
-        color: @nav-tabs-active-link-hover-color;
+        color: @primary;
         background-color: @nav-tabs-active-link-hover-bg;
-        border: 1px solid @nav-tabs-active-link-hover-border-color;
-        border-bottom-color: transparent;
+        border: 2px solid @primary;
+        border-bottom-color: @primary;
         cursor: default;
+        @media (max-width: @screen-xs){ height: 30px;}
       }
     }
   }

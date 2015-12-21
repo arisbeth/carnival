@@ -108,22 +108,27 @@ small,
   @media (min-width: @screen-md){ font-size: 140%}
 }
 
+.fz-medium{ font-size: 140%; }
+
 .normal{
   font-size: 160%;
   @media (max-width: @screen-xs){ font-size: 140%}
 }
-
-.fz-title--small{
-  font-size: 18px;
-   @media (min-width: @screen-sm){ font-size: 24px;}
-  @media (min-width: @screen-md){ font-size: 28px;}
+.padding-title{
+  margin-top: 4px;
+  // @media (min-width: @screen-sm){ margin-top: 4px;}
+  // @media (min-width: @screen-md){ margin-top: 4px;}
 }
+// .fz-title--small{
+//   font-size: 18px;
+//    @media (min-width: @screen-sm){ font-size: 24px;}
+// }
 
-.fz-title--large{
-  font-size: 20px;
-   @media (min-width: @screen-sm){ font-size: 26px;}
-  @media (min-width: @screen-md){ font-size: 30px;}
-}
+// .fz-title--large{
+//   margin-top: 4px;
+//   font-size: 18px;
+//    @media (min-width: @screen-sm){ font-size: 24px;}
+// }
 
 
 mark,
@@ -391,6 +396,11 @@ a{
 .text-shadow{
 text-shadow: 2px 2px 1px @gray-darker;
 }
+
+.text-lighter{
+  font-weight: lighter;
+}
+
 .larger{
   font-size: 170%;
 }
@@ -427,7 +437,7 @@ footer p{
 
 .img-center{ vertical-align: middle;}
 
-div.user-content{
+.user-content{
   & a{
     color: @secondary;
     border-bottom: 1px solid @secondary;
@@ -435,4 +445,13 @@ div.user-content{
   & p{
     @media (min-width: @screen-sm){ margin: 0 25%;}
   }
+  & h2{
+    color: @secondary;
+    text-align: center;
+    text-transform: uppercase;
+
+  }
 }
+
+.alignleft{ float: left;}
+.alignright{ float: right;}
